@@ -19,24 +19,6 @@ After high school I dropped out of two different colleges before heading to Long
 
 After working a few other jobs (with disabled people, for a materials testing company, at a funplex, at Starbucks and for the City of Greeley) I started working for my dad as a property manager. This led to me getting my Real Estate License. I don’t like or dislike my job, I just do it and hope to someday do something else.
 
-After a couple uears of working for my Dad I was done. It was either hate my dad or find a new job. So I went back to school. I didn’t quite finish due to money. As in “We need more money”.
-
-Luckily Harper was able to help me find a job at Graphicly. I worked there for about 18 months. I started out as just an assistant but moved on to doing QA on a bunch of android apps. This job taught me attention to detail and the importance of getting things done. I
-
-Who is Dylan Reed? Why is Dylan so awesome? Why should you care? These are all questions I plan to answer in this section, thus the boring title. I have wrestled with this page for days and have finally narrowed down my ideas to focus on those three questions.
-
-Who is Dylan Reed?
-
-He is I and I am him. I was born, raised and still reside in Greeley, Colorado. You may recognize Greeley from accounts of how much it smells or possibly from the JBS/Swift immigration raids. Even if you don’t know where it is you’ll do OK as I try to refer as little as possible to Greeley in my posts.
-
-I was raised without a television, as was my brother(which makes sense), so I learned to read at a young age and ead a lot. The unfortunate downside to this is that I had a hard time separating TV from reality. For instance when I watched E.T. as a kid I thought that the government was really torturing an alien and was in tears while I watched it. I was twelve.
-
-In high school I started clowning, juggling, unicycling and making balloon animals. This was my great ploy to get the girls. The first balloons I learned to make were hearts and teddy bears holding flowers, I then learned to make the six petal flower. That was the balloon that should have gotten me the girls. It worked alright, but a gentleman doesn’t say.
-
-After high school I dropped out of two different colleges before heading to Long Beach to attend the College of Oceaneering. I studied commercial diving, specifically non-destructive testing, and worked primarily at Hollywood Video. I met some really cool people and learned a lot about diving. I also started this blog while there though my writing left a lot to be desired. Shortly after moving back to Greeley I married my wonderful wife Sarah. Our marriage kicks other marriages butts.
-
-After working a few other jobs (with disabled people, for a materials testing company, at a funplex, at Starbucks and for the City of Greeley) I started working for my dad as a property manager. This led to me getting my Real Estate License. I don’t like or dislike my job, I just do it and hope to someday do something else.
-
 After a couple years of working for my Dad I was done. It was either hate my dad or find a new job. So I went back to school. I didn’t quite finish due to money. As in “We need more money”.
 
 Luckily Harper was able to help me find a job at Graphicly. I worked there for about 18 months. I started out as just an assistant but moved on to doing QA on a bunch of android apps. This job taught me attention to detail and the importance of getting things done. I was lucky enough to get to work from home during this period, which spoiled me rotten.
