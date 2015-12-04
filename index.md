@@ -7,7 +7,7 @@ permalink: /
 
 ##Tired of Fear and Failure Holding You Back? 
 <a href = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
-<img align = left src = "https://dl.dropboxusercontent.com/u/45369/3fs-mock.png" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
+<img src = "https://dl.dropboxusercontent.com/u/45369/3fs-mock.png" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
 </a>
 
 
