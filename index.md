@@ -32,5 +32,3 @@ Dylan's first foray into long fiction: **Calliope and the Rogue Biologic** follo
 </div>
 
 <!--End mc_embed_signup-->
-
-<script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us12.list-manage.com","uuid":"aef49e9bc6220b93bcd835967","lid":"82299a5c9f"}) })</script>
