@@ -6,7 +6,9 @@ permalink: /
 ---
 
 ##Tired of Fear and Failure Holding You Back? 
-[![The Three Fs](https://dl.dropboxusercontent.com/u/45369/3fs-mock.png)](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8)In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. Buy my book on [amazon](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8).
+[![The Three Fs](https://dl.dropboxusercontent.com/u/45369/3fs-mock.png)](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8)
+
+In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. Buy my book on [amazon](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8).
 
 
 <!-- Begin MailChimp Signup Form -->
