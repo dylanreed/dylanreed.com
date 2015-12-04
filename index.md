@@ -12,9 +12,7 @@ permalink: /
 
 
 
-In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. Buy my book on [amazon](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8).
-
-<!-- Begin MailChimp Signup Form -->
+In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. Buy my book on [amazon](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8).<!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">
 	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
