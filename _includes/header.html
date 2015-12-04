@@ -15,15 +15,18 @@
 
       <div class="trigger">
         <a class="page-link" href="/">Home</a>
+
+        {% assign pages_list = site.pages | sort:"url" %}
+        {% for node in pages_list %}
+          {% if node.title != null %}
+            {% if node.layout == "page" %}
+              <a class="page-link" href="{{ node.url | prepend: site.baseurl }}">{{ node.title }}</a>
+            {% endif %}
+          {% endif %}
+        {% endfor %}
         <a class="page-link" href="http://tinyurl.com/lgz83yv">Resume</a>
         <a class="page-link" href="http://www.amazon.com/dp/B00L9MCJHK">Book</a>
         <a class="page-link" href="http://fancycadaver.com/">Blog</a>
-        {% for my_page in site.pages %}
-          {% if my_page.title %}
-          <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-          {% endif %}
-        {% endfor %}
-
       </div>
     </nav>
 
