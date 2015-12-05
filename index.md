@@ -13,6 +13,9 @@ permalink: /
 <img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
 </a>
 
+---
+
+
 This book focuses on using fun to tackle fear and failure. You will learn how to:
 
 * Visualize Tough Conversations
