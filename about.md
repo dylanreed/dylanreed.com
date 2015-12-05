@@ -9,7 +9,7 @@ Who is Dylan Reed? Why is Dylan so awesome? Why should you care? These are all q
 
 ***Who is Dylan Reed?***
 
-He is I and I am him. I was born, raised and still reside in Greeley, Colorado. You may recognize Greeley from accounts of how much it smells. Even if you don’t know where it is you’ll do ok as I try to refer as little as possible to Greeley in my posts.
+![image](<img src="https://farm6.staticflickr.com/5684/23542485855_676b3a011f_n.jpg" width="320" height="320" alt="Untitled">He is I and I am him. I was born, raised and still reside in Greeley, Colorado. You may recognize Greeley from accounts of how much it smells. Even if you don’t know where it is you’ll do ok as I try to refer as little as possible to Greeley in my posts.
 
 I was raised without a television, as was my brother, which makes sense, so I learned to read at a young age and have read a lot. The unfortunate downfall to this is that I had a hard time separating TV from reality. For instance when I watched E.T. I thought that the government was really torturing an alien and was in tears while I watched it. I was twelve.
 
