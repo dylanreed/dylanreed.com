@@ -33,7 +33,3 @@ This is a hard question to answer since awesomeness is subjective. It boils down
 ***Why should you care?***
 
 You shouldn’t. Or maybe you should. I have experienced a lot in my thirty-four years and love to share those experiences with others. I have also started writing fiction, which is exciting for me. 
-
-**Coming soon:**
-
-Dylan's first foray into long fiction: **Calliope and the Rogue Biologic** follows the adventures of Calliope Frankenstein as she starts classes at the Academy of Unnatural Sciences. Coming out Summer 2016 on Amazon. Sign up to receive updates and opportunities to be a beta reader.
