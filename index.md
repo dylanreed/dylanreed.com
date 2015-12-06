@@ -9,7 +9,7 @@ permalink: /
 <img src = "https://dl.dropboxusercontent.com/u/45369/3fs-mock.png" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
 </a> In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. 
 
-This book focuses on using fun to tackle fear and failure. You will learn how to:
+The [Three Fs](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8) focuses on using fun to tackle fear and failure. You will learn how to:
 
 * Visualize Tough Conversations
 * Own Your Failures
