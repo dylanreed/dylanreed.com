@@ -20,11 +20,6 @@ The [Three Fs](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B0
 </a>
 
 
-
- 
-
-	
-
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
 <style type="text/css">

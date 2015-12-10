@@ -8,5 +8,10 @@ Dylan's first foray into long fiction: **Calliope and the Rogue Biologic** follo
 
 #####Coming Summer 2016 to Amazon#####
 
+###Goals are Dumb###
+Dylan is working on a followup to The Three Fs. This book will focus on the best way to ignore goals and just get things done. Sample chapters will be released to people on my mailing list, so sign up today.
+
+#####Coming Spring 2016 to Amazon#####
+
 
 
