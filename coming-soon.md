@@ -10,7 +10,7 @@ permalink: /coming-soon/
  Calliope Frankenstein is on her way to the Academy of Unnatural Sciences to begin her first year studying the Mad Sciences. Will Calliope be able to navigate school life and figure out who is behind the recent monster attacks? Mystery, Monsters and Mad Science bring the world to life.  
 
 
-**Calliope and the Rogue Biologic will be released April 1, 2016 - Pre-Order Now**
+**Calliope and the Rogue Biologic will be released April 1, 2016 - No Joke!**
 
 
 
