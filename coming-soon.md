@@ -9,7 +9,13 @@ permalink: /coming-soon/
 </a>
 
 ####Calliope and the Rogue Biologic
- Calliope Frankenstein is on her way to the Academy of Unnatural Sciences to begin her first year studying the Mad Sciences. Will Calliope be able to navigate school life and figure out who is behind the recent monster attacks? Mystery, Monsters and Mad Science bring the world to life.  
+When Calliope Frankenstein arrives at the Academy of Unnatural Sciences nervous for her first year at school, she . Having spent her early education home schooled. Calliope is planning on learning Tinktronics-the creation of clockwork devices-despite the expectation that the expectation that she should study Biologics-the creation of reanimated corpses. 
+
+When her studies are interrupted by monster attacks, monster attacks that are eerily similar to the attack that killed her parents, Calliope is forced to use her newly learned skills to protect herself and her fellow students.
+
+A Rogue Biologic-a scientist combining the disciplines-has been sending monsters to assault the school. Finding out who is sending the monsters may lead Calliope to who killed her parents.
+
+Can she survive monster attacks, new friendships and her first true love?
 
 
 **Calliope and the Rogue Biologic will be released April 1, 2016 - No Joke!**
