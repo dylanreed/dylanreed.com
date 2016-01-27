@@ -5,7 +5,7 @@ permalink: /coming-soon/
 ---
 
 <a href = "http://bit.ly/CaATRB">
-<img src = "https://dl.dropboxusercontent.com/u/45369/Calliope-1-mock.jpg" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
+<img src = "https://dl.dropboxusercontent.com/u/45369/Calliope-1-mock.jpg" link = "http://bit.ly/CaATRB">
 </a>
 
 ####Calliope and the Rogue Biologic
