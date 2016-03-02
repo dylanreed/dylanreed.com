@@ -8,7 +8,7 @@ permalink: /
 <a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
 <img src = "https://dl.dropboxusercontent.com/u/45369/Collection-1-cover.png" link = "http://www.amazon.com/gp/product/B01CGZOH3W">
 </a> 
-</br>
+</ br>
 A collection of short stories I have written over the last four months. They range from the insane to the more insane.  I hope you enjoy them. 
 
 
