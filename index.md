@@ -4,19 +4,14 @@ layout: page
 
 permalink: /
 ---
-##Tired of Fear and Failure Holding You Back? 
-<a href = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
-<img src = "https://dl.dropboxusercontent.com/u/45369/3fs-mock.png" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
-</a> In a world where fear and failure are everywhere one man dared to stand up and laugh. That man is Dylan Reed, a professional clown, one time commercial diver and full time awesome dude. In his first book he teaches you the strategies for countering fear and failure using fun. Learn how to make fear and failure work for you and enjoy the experience. 
+##Things I Have Written: Vol. 1 
+<a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
+<img src = "https://dl.dropboxusercontent.com/u/45369/Collection-1-cover.png" link = "http://www.amazon.com/gp/product/B01CGZOH3W">
+</a> A collection of short stories I have written over the last four months. I hope you enjoy them. 
 
-The [Three Fs](http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8) focuses on using fun to tackle fear and failure. You will learn how to:
 
-* Visualize Tough Conversations
-* Own Your Failures
-* Have Fun
-
-<a href = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
-<img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/Three-Fs-Using-overcome-failure-ebook/dp/B00L9MCJHK/ref=asap_bc?ie=UTF8">
+<a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
+<img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/gp/product/B01CGZOH3W">
 </a>
 
 
