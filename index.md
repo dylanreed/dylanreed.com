@@ -17,7 +17,9 @@ An Election?
 
 What is happening? 
 
-This collection of short stories doesn't have a theme. One of the stories is absurd, one of them has a message (I think) and one is just plain weird. This is a short collection of short stories. A nice quick read for you to enjoy and share. They range from the insane to the more insane. Each of these started as a random idea that I couldn't get rid of no matter how hard I tried. Since it is me there is of course one story that involves cats... so that is awesome. I hope you enjoy them. 
+This collection of short stories doesn't have a theme. One of the stories is absurd, one of them has a message (I think) and one is just plain weird. This is a short collection of short stories. A nice quick read for you to enjoy and share. 
+
+They range from the insane to the more insane. Each of these started as a random idea that I couldn't get rid of no matter how hard I tried. Since it is me there is of course one story that involves cats... so that is awesome. I hope you enjoy them. 
 
 Things I have Written: Vol. 1 is available on Amazon now. Also don't for get to check out [Acme Hero Inc](http://acmeheroinc.com) for more stories by Dylan. 
 
