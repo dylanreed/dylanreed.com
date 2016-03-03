@@ -11,7 +11,9 @@ permalink: /
 
 <br />
 
-A collection of short stories I have written over the last four months. They range from the insane to the more insane.  I hope you enjoy them. 
+A collection of short stories I have written over the last four months. They range from the insane to the more insane. Each of these started as a random idea that I couldn't get rid of no matter how hard I tried. Since it is me there is of course one story that involves cats... so that is awesome. I hope you enjoy them. 
+
+Things I have Written: Vol. 1 is available on Amazon now. Also don't for get to check out [Acme Hero Inc](http://acmeheroinc.com)for more stories by Dylan. 
 
 
 <a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
