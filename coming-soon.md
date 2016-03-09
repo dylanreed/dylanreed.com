@@ -5,7 +5,7 @@ permalink: /coming-soon/
 ---
 
 <img src = "https://dl.dropboxusercontent.com/u/45369/Origin-Cover-Mock.png" link = "">
-</a>
+
 <h1>The Correspondent: Origin</h1>
 
 Ellie is a normal high school girl having another boring summer. She works at her parents hardware store and has just broken up with her boyfriend. She didn’t plan on becoming a superhero. Frustrated by her recent breakup she was just trying to move on. 
