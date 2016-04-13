@@ -4,28 +4,20 @@ layout: page
 
 permalink: /
 ---
-<h1> Things I Have Written: Vol. 1</h1>
-<a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
-<img src = "https://dl.dropboxusercontent.com/u/45369/Collection-1-cover.png" link = "http://www.amazon.com/gp/product/B01CGZOH3W">
+<h1> The Correspondent: Orign</h1>
+<a href = "http://dylan.la/1SaT8L4">
+<img src = "https://dl.dropboxusercontent.com/u/45369/Correspondent-1-mock.png" link = "http://dylan.la/1SaT8L4">
 </a> 
 
-A planet for cats? 
+Ellie is a normal high school girl having another boring summer. She works at her parents hardware store and has just broken up with her boyfriend. She didn’t plan on becoming a superhero. Frustrated by her recent breakup she was just trying to move on.
 
-The Squirrel? 
+A rash of robberies have the police running in circles. No one seems to be able to stop The Rat from running rampant through the city. Until now.
 
-An Election? 
-
-What is happening? 
-
-This collection of short stories doesn't have a theme. One of the stories is absurd, one of them has a message (I think) and one is just plain weird. This is a short collection of short stories. A nice quick read for you to enjoy and share. 
-
-They range from the insane to the more insane. Each of these started as a random idea that I couldn't get rid of no matter how hard I tried. Since it is me there is of course one story that involves cats... so that is awesome. I hope you enjoy them. 
-
-Things I have Written: Vol. 1 is available on Amazon now. Also don't for get to check out [Acme Hero Inc](http://acmeheroinc.com) for more stories by Dylan. 
+The Correspondent is just doing her best, trying to protect her city and her family. Will it be enough?
 
 
-<a href = "http://www.amazon.com/gp/product/B01CGZOH3W">
-<img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/gp/product/B01CGZOH3W">
+<a href = "http://dylan.la/1SaT8L4">
+<img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/gp/product/B01E7M5TKC">
 </a>
 
 
