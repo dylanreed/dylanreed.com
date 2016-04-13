@@ -4,7 +4,7 @@ layout: page
 
 permalink: /
 ---
-<h1> The Correspondent: Orign</h1>
+<h1> The Correspondent: Origin</h1>
 <a href = "http://dylan.la/1SaT8L4">
 <img src = "https://dl.dropboxusercontent.com/u/45369/Correspondent-1-mock.png" link = "http://dylan.la/1SaT8L4">
 </a> 
