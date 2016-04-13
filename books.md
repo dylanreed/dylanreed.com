@@ -23,7 +23,12 @@ The Correspondent is just doing her best, trying to protect her city and her fam
 <h1> Things I have Written</h1>
 <a href = "http://dylan.la/260WDeg">
 <img src = "https://dl.dropboxusercontent.com/u/45369/Collection-1-cover.png" link = "http://dylan.la/260WDeg">
-</a> 
+</a> </br>
+</br></br>
+</br></br>
+</br></br>
+</br></br>
+</br>
 
 A planet for cats? 
 The Squirrel? 
@@ -37,9 +42,15 @@ This collection of short stories doesn't have a theme. One of the stories is abs
 <img src = "https://images-na.ssl-images-amazon.com/images/G/01/associates/remote-buy-box/buy1._V192207739_.gif" link = "http://www.amazon.com/gp/product/B01E7M5TKC">
 </a>
 
+</br>
+</br></br>
+</br></br>
+</br></br>
+</br>
 
-<h1> The 3 Fs:</h1> 
-<h2>Using fun to overcome fear and failure</h2>
+
+<h2> The 3 Fs:</h2> 
+<h1>Using fun to overcome fear and failure</h1>
 <a href = "http://dylan.la/1oYDB6g">
 <img src = "https://dl.dropboxusercontent.com/u/45369/3fs-mock-99.png" link = "http://dylan.la/1oYDB6g">
 </a> 
