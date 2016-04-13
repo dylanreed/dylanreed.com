@@ -9,11 +9,11 @@ permalink: /
 <img src = "https://dl.dropboxusercontent.com/u/45369/Correspondent-1-mock.png" link = "http://dylan.la/1SaT8L4">
 </a> 
 
-Ellie is a normal high school girl having another boring summer. She works at her parents hardware store and has just broken up with her boyfriend. She didn’t plan on becoming a superhero. Frustrated by her recent breakup she was just trying to move on.
+Ellie is a normal high school girl having another boring summer. She works at her parents hardware store and has just broken up with her boyfriend. She didn’t plan on becoming a superhero. Frustrated by her recent breakup she was trying to move on.
 
 A rash of robberies have the police running in circles. No one seems to be able to stop The Rat from running rampant through the city. Until now.
 
-The Correspondent is just doing her best, trying to protect her city and her family. Will it be enough?
+The Correspondent is doing her best, trying to protect her city and her family. Will it be enough?
 
 
 <a href = "http://dylan.la/1SaT8L4">
