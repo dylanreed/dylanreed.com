@@ -16,7 +16,7 @@ A rash of robberies have the police running in circles. No one seems to be able 
 The Correspondent is doing her best, trying to protect her city and her family. Will it be enough?
 
 
-<a href = "http://acmeheroinc.com">Read it now</a>
+<a href = "http://acmeheroinc.com">Read it now!</a>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
