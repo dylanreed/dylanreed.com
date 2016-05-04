@@ -5,7 +5,7 @@ layout: page
 permalink: /
 ---
 <h1> The Correspondent: Origin</h1>
-<a href = "http://acmeheroinc.com">
+<a href = "http://dylan.la/1SaT8L4">
 <img src = "https://dl.dropboxusercontent.com/u/45369/Correspondent-1-mock.png" link = "http://acmeheroinc.com">
 </a> 
 
@@ -16,7 +16,7 @@ A rash of robberies have the police running in circles. No one seems to be able 
 The Correspondent is doing her best, trying to protect her city and her family. Will it be enough?
 
 
-<a href = "http://acmeheroinc.com">Read it now!</a>
+<a href = "http://dylan.la/1SaT8L4">Buy It Now!!</a>
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
