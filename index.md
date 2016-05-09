@@ -16,7 +16,7 @@ A rash of robberies have the police running in circles. No one seems to be able 
 The Correspondent is doing her best, trying to protect her city and her family. Will it be enough?
 
 
-[Buy It Now!!](http://dylan.la/1SaT8L4) OR [Read it for Free](https://tablo.io/dylan-reed-1/the-correspondent-origin)
+[Kindle](http://dylan.la/1SaT8L4) or [Tablo](https://tablo.io/dylan-reed-1/the-correspondent-origin) or [Nook](http://dylan.la/1ZyrbPg) or [Download](http://dylan.la/1SZCAan)
 
 
 <!-- Begin MailChimp Signup Form -->
