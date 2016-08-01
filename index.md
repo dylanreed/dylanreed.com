@@ -4,17 +4,17 @@ layout: page
 
 permalink: /
 ---
-<h1> The Correspondent: Origin</h1>
+<h1> The Correspondent: Golden Age</h1>
 <a href = "http://dylan.la/1SaT8L4">
-<img src = "https://dl.dropboxusercontent.com/u/45369/Correspondent-1-mock.png" link = "http://acmeheroinc.com">
+<img src = "https://dl.dropboxusercontent.com/u/45369/The-Correspondent---Stack.png" link = "http://acmeheroinc.com">
 </a> 
+<h3>The Correspondent is back!!</h3>
 
-Ellie is a normal high school girl having another boring summer. She works at her parents hardware store and has just broken up with her boyfriend. She didn’t plan on becoming a superhero. Frustrated by her recent breakup she was trying to move on.
+After defeating The Rat, Ellie hangs up her mask, or at least that is what she told her mom. She promised that she would not go out looking for danger, but what if it finds her?
 
-A rash of robberies have the police running in circles. No one seems to be able to stop The Rat from running rampant through the city. Until now.
+While doing some routine patrolling she is attacked by two of the strongest henchmen she has ever encountered. Can she figure out what they want while navigating school, her internship with the police, and family life?
 
-The Correspondent is doing her best, trying to protect her city and her family. Will it be enough?
-
+Coming Soon to your favorite retailers. Get book one today:
 
 [Kindle](http://dylan.la/1SaT8L4) or [Tablo](https://tablo.io/dylan-reed-1/the-correspondent-origin) or [iBooks](https://itunes.apple.com/us/book/the-correspondent/id1112374438?mt=11) or [Nook](http://dylan.la/1ZyrbPg) or [Download](http://dylan.la/1SZCAan)
 
@@ -29,7 +29,7 @@ The Correspondent is doing her best, trying to protect her city and her family. 
 <div id="mc_embed_signup">
 <form action="//dylanreed.us12.list-manage.com/subscribe/post?u=aef49e9bc6220b93bcd835967&amp;id=82299a5c9f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
     <div id="mc_embed_signup_scroll">
-	<label for="mce-EMAIL">Subscribe for updates</label>
+	<label for="mce-EMAIL">Keep up to date:</label>
 	<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
     <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
     <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_aef49e9bc6220b93bcd835967_82299a5c9f" tabindex="-1" value=""></div>
