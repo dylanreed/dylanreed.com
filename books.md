@@ -18,7 +18,7 @@ The Correspondent is doing her best, trying to protect her city and her family. 
 
 [Kindle](http://dylan.la/1SaT8L4) or [Tablo](https://tablo.io/dylan-reed-1/the-correspondent-origin) or [iBooks](https://itunes.apple.com/us/book/the-correspondent/id1112374438?mt=11) or [Nook](http://dylan.la/1ZyrbPg) or [Download](http://dylan.la/1SZCAan)
 
-<h1> The 3 Fs</h1>
+<h1> The 3 Fs: Using fun to overcome fear and failure</h1>
 <a href = "http://dylan.la/2anthOe">
 <img src = "https://dl.dropboxusercontent.com/u/45369/The-3fs-mockup.png" link = "http://dylan.la/2anthOe">
 </a> 
