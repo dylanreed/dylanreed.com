@@ -12,7 +12,9 @@ permalink: /books/
 Being a superhero is hard. For the Amazing Squirrel being punctual is the hardest part. Armed with the latest in Acme Hero Equipment, he hopes that he will be able to save the day. 
 
 [Kindle](http://dylan.la/2aJRe8j)
-<p></p>
+
+---
+
 
 <h1> The Correspondent: Origin</h1>
 <a href = "http://dylan.la/1SaT8L4">
@@ -27,6 +29,8 @@ The Correspondent is doing her best, trying to protect her city and her family. 
 
 
 [Kindle](http://dylan.la/1SaT8L4) or [Tablo](https://tablo.io/dylan-reed-1/the-correspondent-origin) or [iBooks](https://itunes.apple.com/us/book/the-correspondent/id1112374438?mt=11) or [Nook](http://dylan.la/1ZyrbPg) or [Download](http://dylan.la/1SZCAan)
+
+---
 
 <h1> The 3 Fs: Using fun to overcome fear and failure</h1>
 <a href = "http://dylan.la/2anthOe">
