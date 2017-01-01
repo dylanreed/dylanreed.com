@@ -11,8 +11,9 @@ permalink: /books/
 
 Being a superhero is hard. For the Amazing Squirrel being punctual is the hardest part. Armed with the latest in Acme Hero Equipment, he hopes that he will be able to save the day. 
 
+
+
 [Kindle](http://dylan.la/2aJRe8j)
-</ br>
 
 
 
