@@ -19,15 +19,15 @@ permalink: /progress/
 The Problem with Portal 5 (First Draft)
 <div class="progress">
   <div class="progress-bar progress-bar-success" role="progressbar"
-  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:52%">
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:58%">
     Words: 13285/25000
   </div>
 </div>
-Calliope and the Living Biologic (Rewrite)
+Calliope and the Living Biologic (Character Sheets)
 <div class="progress">
   <div class="progress-bar progress-bar-info" role="progressbar"
   aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:0%">
-    Chapter: 0/22
+    Character: 0/25
   </div>
 </div>
 Rio Borealis (First Edits)
