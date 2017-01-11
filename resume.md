@@ -5,8 +5,8 @@ permalink: /resume/
 
 ---
 
-<center>Dylan Reed</center>
-<center>(970) 815-6419 dylan@dylanreed.com</center>
+<center><h2>Dylan Reed</h2></center>
+
 
 <h4>SUMMARY OF QUALIFICATIONS: </h4>
 o	Fast Learner o	People Person o	Problem Solver 	<h4>EXPERIENCE:</h4> 
