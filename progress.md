@@ -26,7 +26,7 @@ The Problem with Portal 5 (First Draft)
 Calliope and the Living Biologic (Rewrite)
 <div class="progress">
   <div class="progress-bar progress-bar-info" role="progressbar"
-  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:2.2%">
+  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:9%">
     
   </div>
 </div>
@@ -37,4 +37,6 @@ Rio Borealis (First Edits)
   
   </div>
 </div>
+
+Follow along with my progress and support my writing on [Patreon](http://dylan.la/23JgCMg). Thanks. 
 
