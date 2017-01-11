@@ -38,5 +38,5 @@ Rio Borealis (First Edits)
   </div>
 </div>
 
-Follow along with my progress and support my writing on [Patreon](http://dylan.la/23JgCMg). Thanks. 
+Follow along with my progress and support my writing on <a href="http://dylan.la/23JgCMg">Patreon</a>. Thanks
 
