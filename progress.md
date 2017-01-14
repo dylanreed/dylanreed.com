@@ -26,7 +26,7 @@ The Problem with Portal 5 (First Draft)
 Calliope and the Living Biologic (Rewrite)
 <div class="progress">
   <div class="progress-bar progress-bar-info" role="progressbar"
-  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:9%">
+  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:13%">
     
   </div>
 </div>
