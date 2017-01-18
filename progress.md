@@ -18,7 +18,7 @@ permalink: /progress/
 
 The Problem with Portal 5 (First Draft)
 <div class="progress">
-  <div class="progress-bar progress-bar-success" role="progressbar"
+  <div class="progress-bar progress-bar-info" role="progressbar"
   aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:58%">
     Words: 13285/25000
   </div>
@@ -32,11 +32,20 @@ Calliope and the Living Biologic (Rewrite)
 </div>
 Rio Borealis (First Edits)
 <div class="progress">
-  <div class="progress-bar progress-bar-warning" role="progressbar"
+  <div class="progress-bar progress-bar-info" role="progressbar"
   aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:0%">
   
   </div>
 </div>
+
+Reading!!!
+<div class="progress">
+  <div class="progress-bar progress-bar-info" role="progressbar"
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:6%">
+    Pages: 1472/23472
+  </div>
+</div>
+
 
 Follow along with my progress and support my writing on <a href="http://dylan.la/23JgCMg">Patreon</a>. Thanks
 
