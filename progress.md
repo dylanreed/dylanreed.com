@@ -19,14 +19,14 @@ permalink: /progress/
 The Problem with Portal 5 (First Draft)
 <div class="progress">
   <div class="progress-bar progress-bar-info" role="progressbar"
-  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:58%">
-    Words: 13285/25000
+  aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:54%">
+    Words: 13512/25000
   </div>
 </div>
-Calliope and the Living Biologic (Rewrite)
+Calliope and the Living Biologic (Passive Check)
 <div class="progress">
   <div class="progress-bar progress-bar-info" role="progressbar"
-  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:13%">
+  aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:27%">
     
   </div>
 </div>
