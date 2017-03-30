@@ -5,6 +5,7 @@ https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Squirr
 
 permalink: /
 ---
+<h1> Dragon Hoard</h1>
 
 <p>There is a new Dragon in Denver, CO and he is starting his hoard. But how does a dragon get a hoard? What kind of paperwork is involved? Is there training or an intership? Find out in this fun story about a dragon and his hoard. </p>
 
@@ -12,22 +13,11 @@ Read it today:
 
 [Kindle](https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)
 
-<h1> Dragon Hoard</h1>
+
 <a href = "https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">
 <img src = "https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/dragon-hoard-mock.jpg" link = "https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">
 </a> 
 
-
-
----
-
-
-
-<p>There is a new Dragon in Denver, CO and he is starting his hoard. But how does a dragon get a hoard? What kind of paperwork is involved? Is there training or an intership? Find out in this fun story about a dragon and his hoard. </p>
-
-Read it today:
-
-[Kindle](https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
