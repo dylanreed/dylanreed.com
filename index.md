@@ -5,18 +5,16 @@ https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Squirr
 
 permalink: /
 ---
-<h1> The Correspondent: Golden Age</h1>
-<a href = "http://dylan.la/2gX082Q">
-<img src = "https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Golden-Age-Mock.png" link = "http://dylan.la/2gX082Q">
+<h1> Dragon Hoard</h1> B06XFF8X4X
+<a href = "https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">
+<img src = "https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/dragon-hoard-mock.jpg" link = "https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">
 </a> 
 
-After defeating The Rat, Ellie hangs up her mask, or at least that is what she told her mom. She promised that she would not go out looking for danger, but what if it finds her?
-
-While doing some routine patrolling she is attacked by two of the strongest henchmen she has ever encountered. Can she figure out what they want while navigating school, her internship with the police, and family life?
+There is a new Dragon in Denver, CO and he is starting his hoard. But how does a dragon get a hoard? What kind of paperwork is involved? Is there training or an intership? Find out in this fun story about a dragon and his hoard. 
 
 Read it today:
 
-[Kindle](http://dylan.la/2gX082Q)
+[Kindle](https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20)
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
