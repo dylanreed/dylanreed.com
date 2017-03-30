@@ -10,7 +10,13 @@ permalink: /
 <img src = "https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/dragon-hoard-mock.jpg" link = "https://www.amazon.com/gp/product/B06XFF8X4X/ref=as_li_tl?ie=UTF8&tag=dylanreed06-20">
 </a> 
 
-There is a new Dragon in Denver, CO and he is starting his hoard. But how does a dragon get a hoard? What kind of paperwork is involved? Is there training or an intership? Find out in this fun story about a dragon and his hoard. 
+
+
+---
+
+
+
+<p>There is a new Dragon in Denver, CO and he is starting his hoard. But how does a dragon get a hoard? What kind of paperwork is involved? Is there training or an intership? Find out in this fun story about a dragon and his hoard. </p>
 
 Read it today:
 
