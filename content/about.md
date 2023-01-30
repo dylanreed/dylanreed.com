@@ -5,9 +5,9 @@ url: /about/
 draft: false
 ---
 
-Dylan is a builder. 
-
 ![](https://www.gravatar.com/avatar/36aff981378cc0b408b7d1bc2f082741?s=240&d=mp)
+
+Dylan is a builder. 
 
 He fell into Web3 with a push from his brother in March of 2021 and hasn’t looked back. 
 
