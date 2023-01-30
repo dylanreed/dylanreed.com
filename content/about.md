@@ -1,14 +1,18 @@
 ---
-layout: page
 title: About
-permalink: /about/
+menu: main
+url: /about/
+draft: false
 ---
 
+Dylan is a builder. 
 
-<img src="https://raw.githubusercontent.com/dylanreed/dylanreed.com/gh-pages/Images/Clear.png">
+![](https://www.gravatar.com/avatar/36aff981378cc0b408b7d1bc2f082741?s=240&d=mp)
 
-Dylan Reed has always been interested in a good story. Raised without a TV he spent a lot of time with books and loves reading. Dylan has been a professional entertainer, studied commercial diving, and loves random trivia. He brings all of this and more together in his stories. 
+He fell into Web3 with a push from his brother in March of 2021 and hasn’t looked back. 
 
-Dylan writes a serial story *[The Correspondent](https://acmeheroinc.com/the-correspondent-origin-chapter-1-20e1bd65e298)* at [Acme Hero, Inc.](http://acmeheroinc.com) <a href = "http://bitly.com/AcmeInc">
+He founded [nervous](https://nervous.net) in march 2021. nervous projects include Adam Bomb Squad,  WVRPS, Broadside, Munko, and a bunch of others. nervous focuses on keeping it simple (stupid). 
 
+Outside of nervous Dylan worked at V3 on projects with Budweiser, Bud Light, Pepsi, Ford, KFC, and many others, his focus at V3 was helping companies develop their web3 strategy. 
 
+Dylan lives in Colorado with his partner and three very spoiled cats.
