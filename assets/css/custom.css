@@ -1,0 +1,19 @@
+.link-opensea {
+  background: rgb(24, 104, 183);
+  background: linear-gradient(
+    90deg,
+    rgba(24, 104, 183, 1) 0%,
+    rgba(21, 178, 229, 1)
+    rgba(32, 129, 226, 1) 100%
+  );
+}
+
+.link-ethereum {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 1) 50%,
+    rgba(32, 129, 226, 1) 100%
+  );
+}
