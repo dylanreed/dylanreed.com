@@ -9,7 +9,7 @@ title = 'Dylan Reed'
   image = "https://www.gravatar.com/avatar/36aff981378cc0b408b7d1bc2f082741?s=240&d=mp"
   links = [
 
-    { email =  { href = "contact", text = "Email me", target = "_self" } },
+    { email =  { href = "contact", text = "Contact me", target = "_self" } },
     { link = { href = "https://dylan.blog", text = "My blog" } },
     { github = "https://github.com/dylanreed" },
     { ethereum = { href = "https://etherscan.io/enslookup-search?search=dylanreed.eth", text = "dylanreed.eth", target = "_self" } },
