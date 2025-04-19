@@ -5,7 +5,7 @@ title = 'Dylan Reed'
 
 [author]
   name = "Dylan Reed"
-  headline = "An OG web3 builder, author, clown, and juggler."
+  headline = "🎭 Dylan Reed Creative coder | Puppet wrangler | Animation anarchist 🧵 I build scripts that talk, blink, and misbehave 👁️‍🗨️ 1940s cartoons meet 2040s AI 🧰 Python, Pygame, FFMPEG, vintage vibes 🎤 Ask me about visemes, yarn crimes, or cyber-comedy
   image = "https://www.gravatar.com/avatar/36aff981378cc0b408b7d1bc2f082741?s=240&d=mp"
   links = [
 
@@ -15,7 +15,6 @@ title = 'Dylan Reed'
     { ethereum = { href = "https://etherscan.io/enslookup-search?search=dylanreed.eth", text = "dylanreed.eth", target = "_self" } },
     { opensea = { href = "https://opensea.io/dylanreed.eth", text = "OpenSea", target = "_self" } },
     
-    { twitter = "https://twitter.com/dylanreed" },
     { instagram = "https://instagram.com/dylanreed" },
     { linkedin = "https://www.linkedin.com/in/dylannotdylan/" },
     { page = { href = "about", text = "About", target = "_self" } },
