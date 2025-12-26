@@ -30,14 +30,16 @@
         speedVariance: 0.4, // +/- 40%
         minIdleTime: 1000,
         maxIdleTime: 3000,
-        spriteWidth: 64
+        spriteWidth: 96, // matches CSS cat size
+        themes: ['cabin', 'cyberpunk', 'fantasy', 'sci-fi', 'underwater']
     };
 
     class PatrolCat {
-        constructor(element, platformWidth) {
+        constructor(element, platformWidth, theme) {
             this.element = element;
             this.img = element.querySelector('img');
             this.platformWidth = platformWidth;
+            this.theme = theme;
 
             // Random speed variance
             const variance = 1 + (Math.random() * CAT_CONFIG.speedVariance * 2 - CAT_CONFIG.speedVariance);
@@ -58,14 +60,15 @@
         }
 
         updateSprite() {
+            const basePath = `/sprites/cat/${this.theme}`;
             if (this.state === 'walking') {
                 this.img.src = this.direction === 1
-                    ? '/sprites/cat/run_east.gif'
-                    : '/sprites/cat/run_west.gif';
+                    ? `${basePath}/run_east.gif`
+                    : `${basePath}/run_west.gif`;
             } else {
                 this.img.src = this.direction === 1
-                    ? '/sprites/cat/idle_east.gif'
-                    : '/sprites/cat/idle_west.gif';
+                    ? `${basePath}/idle_east.gif`
+                    : `${basePath}/idle_west.gif`;
             }
         }
 
@@ -117,13 +120,48 @@
 
     function initCats() {
         const platforms = document.querySelectorAll('.platform');
+        const container = document.querySelector('.platforms-container');
+        if (!container) return;
+
+        // Shuffle themes to get random assignment
+        const shuffledThemes = [...CAT_CONFIG.themes].sort(() => Math.random() - 0.5);
+
+        // Get container dimensions for random positioning
+        const containerRect = container.getBoundingClientRect();
+        const maxX = containerRect.width * 0.9;
+        const maxY = containerRect.height * 0.9;
+
+        // Track placed positions to avoid overlap
+        const placedPositions = [];
 
         platforms.forEach((platform, index) => {
             const catElement = platform.querySelector('.cat');
-            if (!catElement) return;
+            const buttonElement = platform.querySelector('.platform-link');
+            if (!catElement || !buttonElement) return;
 
-            const platformWidth = platform.offsetWidth;
-            const cat = new PatrolCat(catElement, platformWidth);
+            // Pick a random theme for this cat and button
+            const theme = shuffledThemes[index % shuffledThemes.length];
+            platform.classList.add(`theme-${theme}`);
+
+            // Random position within 90% of container, avoiding overlap
+            let x, y, attempts = 0;
+            const buttonWidth = buttonElement.offsetWidth || 120;
+            const buttonHeight = buttonElement.offsetHeight || 50;
+
+            do {
+                x = Math.random() * (maxX - buttonWidth);
+                y = Math.random() * (maxY - buttonHeight);
+                attempts++;
+            } while (attempts < 50 && isOverlapping(x, y, buttonWidth + 100, buttonHeight + 80, placedPositions));
+
+            placedPositions.push({ x, y, w: buttonWidth + 100, h: buttonHeight + 80 });
+
+            // Apply random position
+            platform.style.left = `${x}px`;
+            platform.style.top = `${y}px`;
+
+            // Use button width for patrol bounds (cats walk on buttons now)
+            const cat = new PatrolCat(catElement, buttonWidth, theme);
             cats.push(cat);
 
             // Hover interaction
@@ -131,6 +169,16 @@
         });
 
         console.log(`Initialized ${cats.length} patrol cats`);
+    }
+
+    function isOverlapping(x, y, w, h, positions) {
+        for (const pos of positions) {
+            if (x < pos.x + pos.w && x + w > pos.x &&
+                y < pos.y + pos.h && y + h > pos.y) {
+                return true;
+            }
+        }
+        return false;
     }
 
     // Animation loop for cats
