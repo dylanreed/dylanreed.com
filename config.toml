@@ -1,21 +1,43 @@
-baseURL = 'http://dylanreed.com/'
+baseURL = 'https://dylanreed.com/'
 languageCode = 'en-us'
 title = 'Dylan Reed'
 
-
-[author]
+[params]
   name = "Dylan Reed"
-  headline = "🎭 Dylan Reed Creative coder | Puppet wrangler | Animation anarchist 🧵 I build scripts that talk, blink, and misbehave 👁️‍🗨️ 1940s cartoons meet 2040s AI 🧰 Python, Pygame, FFMPEG, vintage vibes 🎤 Ask me about visemes, yarn crimes, or cyber-comedy
+  headline = "Creative coder | Puppet wrangler | Animation anarchist"
   image = "https://www.gravatar.com/avatar/36aff981378cc0b408b7d1bc2f082741?s=240&d=mp"
-  links = [
 
-    { email =  { href = "contact", text = "Contact me", target = "_self" } },
-    { link = { href = "https://dylan.blog", text = "My blog" } },
-    { github = "https://github.com/dylanreed" },
-    { ethereum = { href = "https://etherscan.io/enslookup-search?search=dylanreed.eth", text = "dylanreed.eth", target = "_self" } },
-    { opensea = { href = "https://opensea.io/dylanreed.eth", text = "OpenSea", target = "_self" } },
-    
-    { instagram = "https://instagram.com/dylanreed" },
-    { linkedin = "https://www.linkedin.com/in/dylannotdylan/" },
-    { page = { href = "about", text = "About", target = "_self" } },
-  ]
+[[params.links]]
+  name = "Contact"
+  url = "/contact/"
+  icon = "email"
+
+[[params.links]]
+  name = "Blog"
+  url = "https://dylan.blog"
+  icon = "blog"
+
+[[params.links]]
+  name = "GitHub"
+  url = "https://github.com/dylanreed"
+  icon = "github"
+
+[[params.links]]
+  name = "OpenSea"
+  url = "https://opensea.io/dylanreed.eth"
+  icon = "opensea"
+
+[[params.links]]
+  name = "Instagram"
+  url = "https://instagram.com/dylanreed"
+  icon = "instagram"
+
+[[params.links]]
+  name = "LinkedIn"
+  url = "https://www.linkedin.com/in/dylannotdylan/"
+  icon = "linkedin"
+
+[[params.links]]
+  name = "About"
+  url = "https://dylan.blog/who-is/"
+  icon = "about"

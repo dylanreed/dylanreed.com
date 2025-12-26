@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.LanguageCode }}">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Site.Title }}</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <!-- Falling sprites canvas - behind everything -->
+    <canvas id="chaos-canvas"></canvas>
+
+    <!-- Main content -->
+    <main class="bio-container">
+        <!-- Avatar section -->
+        <div class="avatar-section">
+            <img src="{{ .Site.Params.image }}" alt="{{ .Site.Params.name }}" class="avatar">
+            <h1 class="name">{{ .Site.Params.name }}</h1>
+            <p class="headline">{{ .Site.Params.headline }}</p>
+        </div>
+
+        <!-- Floating platforms with links -->
+        <div class="platforms-container">
+            {{ range $index, $link := .Site.Params.links }}
+            <div class="platform" data-index="{{ $index }}">
+                <div class="platform-ground"></div>
+                <a href="{{ $link.url }}" class="platform-link" {{ if hasPrefix $link.url "http" }}target="_blank" rel="noopener"{{ end }}>
+                    {{ $link.name }}
+                </a>
+                <div class="cat" data-cat="{{ $index }}">
+                    <img src="/sprites/cat/idle_east.gif" alt="cat">
+                </div>
+            </div>
+            {{ end }}
+        </div>
+    </main>
+
+    <script src="/js/chaos.js"></script>
+</body>
+</html>
