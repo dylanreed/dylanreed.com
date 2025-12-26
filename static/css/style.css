@@ -211,3 +211,78 @@ body.night .platform-link:hover {
         5px 5px 0 rgba(0,0,0,0.35),
         0 0 20px rgba(100, 150, 200, 0.3);
 }
+
+/* Mobile: Stack platforms vertically */
+@media (max-width: 768px) {
+    .bio-container {
+        padding: 20px 15px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    .avatar {
+        width: 120px;
+        height: 120px;
+    }
+
+    .name {
+        font-size: 1.8rem;
+    }
+
+    .headline {
+        font-size: 1rem;
+    }
+
+    .platforms-container {
+        position: relative;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    /* Reset absolute positioning for mobile */
+    .platform {
+        position: relative !important;
+        left: auto !important;
+        top: auto !important;
+        width: 90%;
+        max-width: 300px;
+    }
+
+    .platform-link {
+        width: 100%;
+        text-align: center;
+    }
+
+    .cat {
+        bottom: 18px;
+    }
+}
+
+/* Very small phones */
+@media (max-width: 400px) {
+    .avatar {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 1.5rem;
+    }
+
+    .headline {
+        font-size: 0.9rem;
+    }
+
+    .platform {
+        width: 95%;
+    }
+
+    .platform-link {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
