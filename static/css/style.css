@@ -286,3 +286,28 @@ body.night .platform-link:hover {
         font-size: 0.9rem;
     }
 }
+
+/* Page load fade-in */
+.bio-container {
+    animation: fadeIn 0.5s ease-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* Platform hover glow */
+.platform:hover .platform-ground {
+    box-shadow:
+        inset 0 -4px 0 rgba(0,0,0,0.3),
+        0 4px 8px rgba(0,0,0,0.4),
+        0 0 15px rgba(196, 160, 96, 0.4);
+}
+
+body.night .platform:hover .platform-ground {
+    box-shadow:
+        inset 0 -4px 0 rgba(0,0,0,0.3),
+        0 4px 8px rgba(0,0,0,0.4),
+        0 0 15px rgba(100, 150, 200, 0.4);
+}
