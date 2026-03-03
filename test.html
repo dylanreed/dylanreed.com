@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Platform Tuning Test</title>
+    <link href="https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap" rel="stylesheet">
+    <style>
+        * {
+            cursor: url('/cursors/pointer.png'), auto;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-image: url('/backgrounds/3.webp');
+            background-size: cover;
+            background-position: center;
+            font-family: 'MedievalSharp', cursive;
+            min-height: 100vh;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .controls {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            background: rgba(0,0,0,0.85);
+            padding: 20px;
+            border-radius: 8px;
+            color: #f5e6d3;
+            z-index: 1000;
+            width: 320px;
+            max-height: 90vh;
+            overflow-y: auto;
+        }
+
+        .controls h2 {
+            margin: 0 0 15px 0;
+            font-size: 1.2rem;
+            border-bottom: 1px solid #5c3d1e;
+            padding-bottom: 10px;
+        }
+
+        .control-group {
+            margin-bottom: 20px;
+        }
+
+        .control-group h3 {
+            margin: 0 0 10px 0;
+            font-size: 1rem;
+            color: #c4a060;
+        }
+
+        .control-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            gap: 10px;
+        }
+
+        .control-row label {
+            width: 120px;
+            font-size: 0.85rem;
+        }
+
+        .control-row input[type="range"] {
+            flex: 1;
+        }
+
+        .control-row .value {
+            width: 50px;
+            text-align: right;
+            font-family: monospace;
+            font-size: 0.85rem;
+        }
+
+        .test-area {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 40px;
+            padding-right: 340px;
+        }
+
+        .platform {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 60px;
+        }
+
+        .platform-link {
+            position: relative;
+            z-index: 2;
+            padding: 10px 24px;
+            background: linear-gradient(180deg, #c4a060 0%, #9a7a40 100%);
+            border: 3px solid #5c3d1e;
+            border-radius: 4px;
+            color: #2a1a08;
+            text-decoration: none;
+            font-size: 1rem;
+            font-weight: bold;
+            box-shadow:
+                inset 1px 1px 0 #e8d5b0,
+                inset -1px -1px 0 #7a5a30,
+                3px 3px 0 rgba(0,0,0,0.3);
+            cursor: url('/cursors/hand.png'), pointer;
+        }
+
+        .cat {
+            position: absolute;
+            z-index: 3;
+            pointer-events: none;
+            top: -48px;
+            width: 48px;
+            height: 48px;
+        }
+
+        .cat img {
+            width: 100%;
+            height: 100%;
+            image-rendering: pixelated;
+        }
+
+        .css-output {
+            background: rgba(0,0,0,0.7);
+            padding: 15px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 0.75rem;
+            white-space: pre;
+            color: #a0ffa0;
+            margin-top: 10px;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        button.copy-btn {
+            background: #5c3d1e;
+            color: #f5e6d3;
+            border: none;
+            padding: 8px 16px;
+            border-radius: 4px;
+            cursor: url('/cursors/hand.png'), pointer;
+            font-family: 'MedievalSharp', cursive;
+            margin-top: 10px;
+        }
+
+        button.copy-btn:hover {
+            background: #7a5a30;
+        }
+    </style>
+</head>
+<body>
+    <div class="controls">
+        <h2>Platform Tuning</h2>
+
+        <div class="control-group">
+            <h3>Cat</h3>
+            <div class="control-row">
+                <label>Top offset:</label>
+                <input type="range" id="catTop" min="-80" max="0" value="-48">
+                <span class="value" id="catTopVal">-48px</span>
+            </div>
+            <div class="control-row">
+                <label>Size:</label>
+                <input type="range" id="catSize" min="24" max="96" value="48">
+                <span class="value" id="catSizeVal">48px</span>
+            </div>
+            <div class="control-row">
+                <label>Left offset:</label>
+                <input type="range" id="catLeft" min="-20" max="100" value="0">
+                <span class="value" id="catLeftVal">0px</span>
+            </div>
+        </div>
+
+        <div class="control-group">
+            <h3>Button</h3>
+            <div class="control-row">
+                <label>Padding H:</label>
+                <input type="range" id="btnPadH" min="5" max="60" value="24">
+                <span class="value" id="btnPadHVal">24px</span>
+            </div>
+            <div class="control-row">
+                <label>Padding V:</label>
+                <input type="range" id="btnPadV" min="5" max="30" value="10">
+                <span class="value" id="btnPadVVal">10px</span>
+            </div>
+            <div class="control-row">
+                <label>Font size:</label>
+                <input type="range" id="btnFont" min="0.7" max="2" step="0.1" value="1">
+                <span class="value" id="btnFontVal">1rem</span>
+            </div>
+            <div class="control-row">
+                <label>Border:</label>
+                <input type="range" id="btnBorder" min="1" max="6" value="3">
+                <span class="value" id="btnBorderVal">3px</span>
+            </div>
+        </div>
+
+        <div class="css-output" id="cssOutput"></div>
+        <button class="copy-btn" onclick="copyCSS()">Copy CSS</button>
+    </div>
+
+    <div class="test-area">
+        <div class="platform">
+            <a href="#" class="platform-link">Contact</a>
+            <div class="cat"><img src="/sprites/cat/idle_east.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">Blog</a>
+            <div class="cat"><img src="/sprites/cat/run_west.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">GitHub</a>
+            <div class="cat"><img src="/sprites/cat/idle_west.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">OpenSea</a>
+            <div class="cat"><img src="/sprites/cat/run_east.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">Instagram</a>
+            <div class="cat"><img src="/sprites/cat/idle_east.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">LinkedIn</a>
+            <div class="cat"><img src="/sprites/cat/run_west.gif" alt="cat"></div>
+        </div>
+
+        <div class="platform">
+            <a href="#" class="platform-link">About</a>
+            <div class="cat"><img src="/sprites/cat/idle_west.gif" alt="cat"></div>
+        </div>
+    </div>
+
+    <script>
+        const controls = {
+            catTop: document.getElementById('catTop'),
+            catSize: document.getElementById('catSize'),
+            catLeft: document.getElementById('catLeft'),
+            btnPadH: document.getElementById('btnPadH'),
+            btnPadV: document.getElementById('btnPadV'),
+            btnFont: document.getElementById('btnFont'),
+            btnBorder: document.getElementById('btnBorder')
+        };
+
+        const cats = document.querySelectorAll('.cat');
+        const buttons = document.querySelectorAll('.platform-link');
+
+        function updateAll() {
+            const catTop = controls.catTop.value;
+            const catSize = controls.catSize.value;
+            const catLeft = controls.catLeft.value;
+            const btnPadH = controls.btnPadH.value;
+            const btnPadV = controls.btnPadV.value;
+            const btnFont = controls.btnFont.value;
+            const btnBorder = controls.btnBorder.value;
+
+            // Update values display
+            document.getElementById('catTopVal').textContent = catTop + 'px';
+            document.getElementById('catSizeVal').textContent = catSize + 'px';
+            document.getElementById('catLeftVal').textContent = catLeft + 'px';
+            document.getElementById('btnPadHVal').textContent = btnPadH + 'px';
+            document.getElementById('btnPadVVal').textContent = btnPadV + 'px';
+            document.getElementById('btnFontVal').textContent = btnFont + 'rem';
+            document.getElementById('btnBorderVal').textContent = btnBorder + 'px';
+
+            // Apply to cats
+            cats.forEach(cat => {
+                cat.style.top = catTop + 'px';
+                cat.style.width = catSize + 'px';
+                cat.style.height = catSize + 'px';
+                cat.style.left = catLeft + 'px';
+            });
+
+            // Apply to buttons
+            buttons.forEach(btn => {
+                btn.style.padding = `${btnPadV}px ${btnPadH}px`;
+                btn.style.fontSize = btnFont + 'rem';
+                btn.style.borderWidth = btnBorder + 'px';
+            });
+
+            // Update CSS output
+            updateCSSOutput();
+        }
+
+        function updateCSSOutput() {
+            const css = `.cat {
+    top: ${controls.catTop.value}px;
+    width: ${controls.catSize.value}px;
+    height: ${controls.catSize.value}px;
+    left: ${controls.catLeft.value}px;
+}
+
+.platform-link {
+    padding: ${controls.btnPadV.value}px ${controls.btnPadH.value}px;
+    font-size: ${controls.btnFont.value}rem;
+    border: ${controls.btnBorder.value}px solid #5c3d1e;
+}`;
+            document.getElementById('cssOutput').textContent = css;
+        }
+
+        function copyCSS() {
+            const css = document.getElementById('cssOutput').textContent;
+            navigator.clipboard.writeText(css).then(() => {
+                const btn = document.querySelector('.copy-btn');
+                btn.textContent = 'Copied!';
+                setTimeout(() => btn.textContent = 'Copy CSS', 1500);
+            });
+        }
+
+        // Add event listeners
+        Object.values(controls).forEach(control => {
+            control.addEventListener('input', updateAll);
+        });
+
+        // Initial update
+        updateAll();
+    </script>
+</body>
+</html>
