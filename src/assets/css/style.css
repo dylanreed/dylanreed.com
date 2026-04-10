@@ -427,6 +427,12 @@ a:hover {
   margin-top: 0.6rem;
 }
 
+.book-card .free-badge {
+  color: var(--color-accent);
+  font-style: normal;
+  font-weight: 500;
+}
+
 /* ========== Universe Sections ========== */
 
 .universe-section {

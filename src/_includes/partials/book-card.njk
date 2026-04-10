@@ -15,7 +15,11 @@
       <span class="genre-tag" style="background-color: {{ book.genre | genreColor }}">{{ book.genre }}</span>
       <h3>{{ book.title }}</h3>
       <p class="hook">{{ book.hook }}</p>
-      <p class="status">{{ book.status | statusLabel }}</p>
+      {% if book.freeWithNewsletter %}
+        <p class="status free-badge">free with newsletter signup</p>
+      {% else %}
+        <p class="status">{{ book.status | statusLabel }}</p>
+      {% endif %}
     </div>
   </a>
 </div>

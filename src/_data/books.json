@@ -34,7 +34,7 @@
     "type": "novella",
     "genre": "Romance",
     "universe": null,
-    "status": "in-progress",
+    "status": "editing",
     "featured": false,
     "hook": "A corps ballet dancer and a food truck operator, both stuck in inherited roles, learn to lead their own lives.",
     "blurb": "Margot dances in the corps — not because she chose it, but because her mother's name still opens doors at the company. Across the street, Jules runs a food truck she inherited when her father died, serving the same menu he served, in the same spot, to the same lunch crowd. They meet over a sprained ankle and a bowl of soup. Neither of them is living the life they'd have picked. This is a story about understudies — people standing in someone else's place — and what happens when they step out of the wings.",
@@ -111,5 +111,20 @@
     "wordCount": 5000,
     "coverImage": null,
     "purchaseLink": null
+  },
+  {
+    "title": "The Amazing Squirrel",
+    "slug": "the-amazing-squirrel",
+    "type": "short",
+    "genre": "Superhero",
+    "universe": "acme-hero",
+    "status": "published",
+    "featured": true,
+    "hook": "A part-time superhero in a purple and orange squirrel suit shows up late to a bank robbery. It goes about as well as you'd expect.",
+    "blurb": "Derek is late. The bank is already robbed. The cops are already sighing. But The Amazing Squirrel has a gliding suit, a goo bomb, a hook gun, and absolutely no plan. When the getaway driver turns out to be a cyborg with a minigun arm, Derek does what he always does — improvises badly, gets lucky, and breaks something important. A short superhero comedy about a guy who is barely qualified to save anyone, including himself.",
+    "wordCount": 1900,
+    "coverImage": null,
+    "purchaseLink": null,
+    "freeWithNewsletter": true
   }
 ]

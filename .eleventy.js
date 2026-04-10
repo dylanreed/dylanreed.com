@@ -66,6 +66,7 @@ wordCount: ${book.wordCount || 0}
 universe: ${book.universe ? '"' + book.universe + '"' : "null"}
 purchaseLink: ${book.purchaseLink ? '"' + book.purchaseLink + '"' : "null"}
 coverImage: ${book.coverImage ? '"' + book.coverImage + '"' : "null"}
+freeWithNewsletter: ${book.freeWithNewsletter ? "true" : "false"}
 permalink: /books/${book.slug}/
 ---
 

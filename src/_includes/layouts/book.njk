@@ -31,7 +31,11 @@ layout: layouts/base.njk
     </p>
   {% endif %}
 
-  {% if purchaseLink %}
+  {% if freeWithNewsletter %}
+    <div style="margin-top: 2rem;">
+      {% include "partials/newsletter.njk" %}
+    </div>
+  {% elif purchaseLink %}
     <p style="margin-top: 1.5rem;">
       <a href="{{ purchaseLink }}" class="hero-cta">Get the book</a>
     </p>
