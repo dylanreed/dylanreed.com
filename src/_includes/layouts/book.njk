@@ -1,14 +1,24 @@
-{# ABOUTME: Individual book page layout. #}
-{# ABOUTME: Displays full blurb, genre, status, universe link, purchase link. #}
-
 ---
 layout: layouts/base.njk
 ---
+{# ABOUTME: Individual book page layout. #}
+{# ABOUTME: Displays full blurb, genre, status, universe link, purchase link. #}
 
 <div class="notebook-page">
-  <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
-  <h1>{{ title }}</h1>
-  <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
+  {% if coverImage %}
+    <div class="book-detail-header">
+      <img src="{{ coverImage }}" alt="{{ title }} cover" class="book-detail-cover">
+      <div class="book-detail-info">
+        <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+        <h1>{{ title }}</h1>
+        <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
+      </div>
+    </div>
+  {% else %}
+    <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+    <h1>{{ title }}</h1>
+    <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
+  {% endif %}
 
   <div class="book-blurb">
     {{ content | safe }}

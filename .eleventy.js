@@ -60,6 +60,7 @@ status: "${book.status}"
 wordCount: ${book.wordCount || 0}
 universe: ${book.universe ? '"' + book.universe + '"' : "null"}
 purchaseLink: ${book.purchaseLink ? '"' + book.purchaseLink + '"' : "null"}
+coverImage: ${book.coverImage ? '"' + book.coverImage + '"' : "null"}
 permalink: /books/${book.slug}/
 ---
 

@@ -23,13 +23,37 @@ module.exports = async function() {
         return tagMatch ? tagMatch[1].trim() : "";
       };
 
-      const title = getTag("title");
+      const decodeEntities = (str) => str
+        .replace(/&ldquo;/g, "\u201C")
+        .replace(/&rdquo;/g, "\u201D")
+        .replace(/&lsquo;/g, "\u2018")
+        .replace(/&rsquo;/g, "\u2019")
+        .replace(/&hellip;/g, "\u2026")
+        .replace(/&mdash;/g, "\u2014")
+        .replace(/&ndash;/g, "\u2013")
+        .replace(/&#34;/g, '"')
+        .replace(/&#39;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&#(\d+);/g, (_, num) => String.fromCharCode(parseInt(num)))
+        .replace(/&amp;/g, "&");
+
+      const title = decodeEntities(getTag("title").replace(/&amp;/g, "&"));
       const link = getTag("link");
       const pubDate = getTag("pubDate");
       const description = getTag("description");
 
-      const excerpt = description
+      // Decode HTML entities first, then strip tags
+      // RSS double-encodes entities (e.g. &amp;ldquo;), so decode &amp; first
+      const unescaped = description
+        .replace(/&lt;/g, "<")
+        .replace(/&gt;/g, ">")
+        .replace(/&nbsp;/g, " ")
+        .replace(/&amp;/g, "&");
+      const decoded = decodeEntities(unescaped);
+
+      const excerpt = decoded
         .replace(/<[^>]*>/g, "")
+        .replace(/\s+/g, " ")
         .substring(0, 150)
         .trim();
 
@@ -46,7 +70,7 @@ module.exports = async function() {
       });
     }
 
-    return items.slice(0, 10);
+    return items.filter(item => item.title).slice(0, 10);
   } catch (error) {
     console.warn("Failed to fetch blog feed:", error.message);
     return [];
