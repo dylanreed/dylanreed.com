@@ -1,32 +1,49 @@
-name: github pages
+# ABOUTME: Deploys dylanreed.com to GitHub Pages via 11ty build.
+# ABOUTME: Triggers on push to main and daily cron for blog feed freshness.
+
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches:
-      - main  # Set a branch that will trigger a deployment
-  pull_request:
+    branches: [main]
+  schedule:
+    - cron: '0 6 * * *'  # Daily at 6am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
-  deploy:
-    runs-on: ubuntu-22.04
+  build:
+    runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-        with:
-          submodules: true  # Fetch Hugo themes (true OR recursive)
-          fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
+      - uses: actions/checkout@v4
 
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: actions/setup-node@v4
         with:
-          hugo-version: 'latest'
-          # extended: true
+          node-version: '22'
+          cache: 'npm'
 
-      - name: Build
-        run: hugo --minify
+      - run: npm ci
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
-        if: github.ref == 'refs/heads/main'
+      - run: npm run build
+
+      - uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          path: _site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
