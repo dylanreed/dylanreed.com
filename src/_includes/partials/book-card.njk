@@ -1,0 +1,11 @@
+{# ABOUTME: Reusable book card component for featured works. #}
+{# ABOUTME: Displays title, genre tag, hook, and status. #}
+
+<div class="book-card">
+  <a href="/books/{{ book.slug }}/">
+    <span class="genre-tag" style="background-color: {{ book.genre | genreColor }}">{{ book.genre }}</span>
+    <h3>{{ book.title }}</h3>
+    <p class="hook">{{ book.hook }}</p>
+    <p class="status">{{ book.status | statusLabel }}</p>
+  </a>
+</div>

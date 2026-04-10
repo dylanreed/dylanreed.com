@@ -1,0 +1,37 @@
+---
+layout: layouts/base.njk
+title: ""
+---
+
+{# ABOUTME: Home page — hero with taped-in photo, featured works, blog feed, newsletter. #}
+{# ABOUTME: First impression for readers and industry professionals. #}
+
+<section class="hero">
+  <div class="hero-photo">
+    <div class="taped-photo">
+      <img src="/assets/images/dylan.jpeg" alt="Dylan Reed — fiction writer" width="240" height="240">
+    </div>
+  </div>
+  <div class="hero-text">
+    <h1>Dylan Reed</h1>
+    <p class="hero-intro">I write speculative fiction about systems that fail the people inside them — dragon licensing boards, dying deep-sea stations, cozy towns where slime runs the bakery.</p>
+    <div>
+      <a href="/books/" class="hero-cta">See the books</a>
+      <a href="/about/" class="hero-cta-secondary">or read about me →</a>
+    </div>
+    <span class="margin-note" style="position: absolute; top: 0; right: -180px;">fiction writer, previously: clown</span>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-header">Featured Works</h2>
+  <div class="book-cards">
+    {%- for book in books -%}
+      {%- if book.featured -%}
+        {% include "partials/book-card.njk" %}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+
+{% include "partials/newsletter.njk" %}

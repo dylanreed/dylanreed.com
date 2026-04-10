@@ -1,0 +1,44 @@
+[
+  {
+    "title": "Universal Basic Princess",
+    "slug": "universal-basic-princess",
+    "type": "novel",
+    "genre": "Romance",
+    "universe": null,
+    "status": "available-soon",
+    "featured": true,
+    "hook": "A crown princess fakes a relationship with an economist after a photo leak. Then it stops being fake.",
+    "blurb": "When a tabloid photo catches Crown Princess Maren holding hands with an economist at a state dinner, her press team does what press teams do — they run with it. The fake relationship is supposed to last six weeks. Long enough to bury the real story. But Dr. Elin Vargas doesn't read the brief, and Maren has never been good at staying in character.",
+    "wordCount": 69000,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "Pressure Rating",
+    "slug": "pressure-rating",
+    "type": "novella",
+    "genre": "Sci-Fi",
+    "universe": null,
+    "status": "submitted",
+    "featured": true,
+    "hook": "The sole maintenance technician on a dying deep-sea station keeps it alive so the person she loves can stay at the only depth that slows their disease.",
+    "blurb": "Wren is the last engineer on Bathyal Station, a research outpost three thousand meters under the Pacific. The station is failing — loss of buoyancy, corroding seals, systems designed for twelve people maintained by one. She stays because Nico stays, and Nico stays because at this depth, the ambient pressure slows the nerve disease that is slowly taking their body apart. This is a story about what it costs to keep something alive, and what it means when the something is a person.",
+    "wordCount": 27500,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "Understudy",
+    "slug": "understudy",
+    "type": "novella",
+    "genre": "Romance",
+    "universe": null,
+    "status": "available-soon",
+    "featured": true,
+    "hook": "A corps ballet dancer and a food truck operator, both stuck in inherited roles, learn to lead their own lives.",
+    "blurb": "Margot dances in the corps — not because she chose it, but because her mother's name still opens doors at the company. Across the street, Jules runs a food truck she inherited when her father died, serving the same menu he served, in the same spot, to the same lunch crowd. They meet over a sprained ankle and a bowl of soup. Neither of them is living the life they'd have picked. This is a story about understudies — people standing in someone else's place — and what happens when they step out of the wings.",
+    "wordCount": 35000,
+    "coverImage": null,
+    "purchaseLink": null
+  }
+]

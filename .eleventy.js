@@ -6,6 +6,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets/images");
   eleventyConfig.addPassthroughCopy("src/assets/fonts");
 
+  eleventyConfig.addFilter("date", (value, format) => {
+    const d = value ? new Date(value) : new Date();
+    if (format === "Y") return d.getFullYear().toString();
+    if (format === "MMMM D, YYYY") {
+      return d.toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" });
+    }
+    return d.toISOString();
+  });
+
   eleventyConfig.addFilter("genreColor", (genre) => {
     const colors = {
       "Cozy Fantasy": "#6b8e6b",
