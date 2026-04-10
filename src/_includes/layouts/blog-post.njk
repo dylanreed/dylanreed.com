@@ -1,0 +1,26 @@
+---
+layout: layouts/base.njk
+---
+{# ABOUTME: Individual blog post layout for posts pulled from dylan.blog RSS. #}
+{# ABOUTME: Renders full post content with canonical link back to dylan.blog. #}
+
+<div class="notebook-page">
+  <article class="blog-post-full">
+    <h1>{{ title }}</h1>
+    <span class="blog-post-date">{{ postDate }}</span>
+
+    <div class="blog-post-content">
+      {{ content | safe }}
+    </div>
+
+    <hr class="divider" style="border: none; border-top: 1px solid rgba(139, 115, 85, 0.2); margin: 2rem 0;">
+
+    <p class="margin-note" style="position: static; width: auto; text-align: left;">
+      originally posted on <a href="{{ canonicalUrl }}">dylan.blog</a>
+    </p>
+
+    <p style="margin-top: 1.5rem;">
+      <a href="/blog/">← All posts</a>
+    </p>
+  </article>
+</div>

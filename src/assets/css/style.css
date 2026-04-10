@@ -502,6 +502,45 @@ a:hover {
   margin-top: 0.3rem;
 }
 
+/* ========== Full Blog Post ========== */
+
+.blog-post-full h1 {
+  margin-bottom: 0.3rem;
+}
+
+.blog-post-full .blog-post-date {
+  display: block;
+  margin-bottom: 2rem;
+}
+
+.blog-post-content {
+  line-height: 1.8;
+}
+
+.blog-post-content img {
+  max-width: 100%;
+  height: auto;
+  margin: 1rem 0;
+}
+
+.blog-post-content h2 {
+  margin-top: 2rem;
+}
+
+.blog-post-content blockquote {
+  border-left: 2px solid var(--color-text-light);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--color-text-light);
+  font-style: italic;
+}
+
+.blog-post-content hr {
+  border: none;
+  border-top: 1px solid rgba(139, 115, 85, 0.2);
+  margin: 2rem 0;
+}
+
 /* ========== Free Story Callout ========== */
 
 .free-story-callout {

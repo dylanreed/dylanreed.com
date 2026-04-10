@@ -7,7 +7,7 @@
   {%- for post in postList -%}
     {%- if loop.index0 < limit -%}
       <div class="blog-post-item">
-        <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+        <h3><a href="/blog/{{ post.slug }}/">{{ post.title }}</a></h3>
         <span class="blog-post-date">{{ post.date }}</span>
         {%- if post.excerpt -%}
           <p class="blog-post-excerpt">{{ post.excerpt }}</p>

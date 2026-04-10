@@ -1,0 +1,16 @@
+---
+layout: layouts/blog-post.njk
+pagination:
+  data: blogPosts
+  size: 1
+  alias: post
+permalink: /blog/{{ post.slug }}/
+eleventyComputed:
+  title: "{{ post.title }}"
+  postDate: "{{ post.date }}"
+  canonicalUrl: "{{ post.canonicalUrl }}"
+---
+{# ABOUTME: Generates individual blog post pages from RSS feed data. #}
+{# ABOUTME: Uses pagination to create one page per post with full content. #}
+
+{{ post.content | safe }}
