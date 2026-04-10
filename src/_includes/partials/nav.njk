@@ -1,0 +1,16 @@
+{# ABOUTME: Site navigation bar with monospace styling. #}
+{# ABOUTME: Hamburger menu on mobile, inline links on desktop. #}
+
+<nav class="site-nav" role="navigation" aria-label="Main navigation">
+  <a href="/" class="nav-home">Dylan Reed</a>
+  <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Toggle navigation">
+    ☰
+  </button>
+  <ul id="nav-links" class="nav-links">
+    <li><a href="/" {% if page.url == "/" %}aria-current="page"{% endif %}>Home</a></li>
+    <li><a href="/books/" {% if page.url == "/books/" %}aria-current="page"{% endif %}>Books</a></li>
+    <li><a href="/about/" {% if page.url == "/about/" %}aria-current="page"{% endif %}>About</a></li>
+    <li><a href="/blog/" {% if page.url == "/blog/" %}aria-current="page"{% endif %}>Blog</a></li>
+    <li><a href="/contact/" {% if page.url == "/contact/" %}aria-current="page"{% endif %}>Contact</a></li>
+  </ul>
+</nav>
