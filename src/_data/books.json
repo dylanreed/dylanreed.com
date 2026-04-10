@@ -1,5 +1,20 @@
 [
   {
+    "title": "The Amazing Squirrel",
+    "slug": "the-amazing-squirrel",
+    "type": "short",
+    "genre": "Superhero",
+    "universe": "acme-hero",
+    "status": "published",
+    "featured": false,
+    "hook": "A part-time superhero in a purple and orange squirrel suit shows up late to a bank robbery. It goes about as well as you'd expect.",
+    "blurb": "Derek is late. The bank is already robbed. The cops are already sighing. But The Amazing Squirrel has a gliding suit, a goo bomb, a hook gun, and absolutely no plan. When the getaway driver turns out to be a cyborg with a minigun arm, Derek does what he always does — improvises badly, gets lucky, and breaks something important. A short superhero comedy about a guy who is barely qualified to save anyone, including himself.",
+    "wordCount": 1900,
+    "coverImage": "/assets/images/covers/the-amazing-squirrel.png",
+    "purchaseLink": null,
+    "freeWithNewsletter": true
+  },
+  {
     "title": "The Correspondent: Origins",
     "slug": "the-correspondent-origins",
     "type": "novel",
@@ -35,7 +50,7 @@
     "genre": "Romance",
     "universe": null,
     "status": "editing",
-    "featured": false,
+    "featured": true,
     "hook": "A corps ballet dancer and a food truck operator, both stuck in inherited roles, learn to lead their own lives.",
     "blurb": "Margot dances in the corps — not because she chose it, but because her mother's name still opens doors at the company. Across the street, Jules runs a food truck she inherited when her father died, serving the same menu he served, in the same spot, to the same lunch crowd. They meet over a sprained ankle and a bowl of soup. Neither of them is living the life they'd have picked. This is a story about understudies — people standing in someone else's place — and what happens when they step out of the wings.",
     "wordCount": 35000,
@@ -62,7 +77,7 @@
     "type": "novel",
     "genre": "Steampunk",
     "universe": "frankensteins-daughter",
-    "status": "editing",
+    "status": "re-writing",
     "featured": false,
     "hook": "A fifteen-year-old clockwork inventor ages out of a grim orphanage and gets a letter to a hero academy. Everyone there knows whose daughter she is.",
     "blurb": "Calliope is the daughter of mad scientists, killed by the very monster they created, and everyone at the academy knows it. Aging out of the orphanage with nothing but her wits and a gift for building mechanical solutions, she has to prove she's not doomed to repeat her parents' mistakes. A steampunk YA story about a girl who builds her way out of every corner she's pushed into.",
@@ -111,20 +126,5 @@
     "wordCount": 5000,
     "coverImage": null,
     "purchaseLink": null
-  },
-  {
-    "title": "The Amazing Squirrel",
-    "slug": "the-amazing-squirrel",
-    "type": "short",
-    "genre": "Superhero",
-    "universe": "acme-hero",
-    "status": "published",
-    "featured": true,
-    "hook": "A part-time superhero in a purple and orange squirrel suit shows up late to a bank robbery. It goes about as well as you'd expect.",
-    "blurb": "Derek is late. The bank is already robbed. The cops are already sighing. But The Amazing Squirrel has a gliding suit, a goo bomb, a hook gun, and absolutely no plan. When the getaway driver turns out to be a cyborg with a minigun arm, Derek does what he always does — improvises badly, gets lucky, and breaks something important. A short superhero comedy about a guy who is barely qualified to save anyone, including himself.",
-    "wordCount": 1900,
-    "coverImage": "/assets/images/covers/the-amazing-squirrel.png",
-    "purchaseLink": null,
-    "freeWithNewsletter": true
   }
 ]

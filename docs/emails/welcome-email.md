@@ -8,7 +8,8 @@ Hey — thanks for signing up for The Margin Notes. I genuinely appreciate it.
 
 As promised, here's your free copy of *The Amazing Squirrel*:
 
-[Download epub](https://dylanreed.com/downloads/the-amazing-squirrel.epub)
+[Download epub](https://dylanreed.com/downloads/The-Amazing-Squirrel.epub)
+http://localhost:5656/assets/downloads/The-Amazing-Squirrel.epub
 
 If you want to know what else I'm working on, I write speculative fiction about systems that fail the people inside them — dragon licensing boards, dying deep-sea stations, cozy towns where slime runs the bakery. You can browse the full catalog at [dylanreed.com/books](https://dylanreed.com/books/).
 

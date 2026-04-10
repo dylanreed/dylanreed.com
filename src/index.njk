@@ -23,11 +23,36 @@ title: ""
   </div>
 </section>
 
+<section class="free-story-callout">
+  <div class="free-story-inner">
+    {%- for book in books -%}
+      {%- if book.freeWithNewsletter -%}
+        {% if book.coverImage %}
+          <img src="{{ book.coverImage }}" alt="{{ book.title }} cover" class="free-story-cover">
+        {% endif %}
+        <div class="free-story-text">
+          <h2>Read something right now</h2>
+          <p><strong>{{ book.title }}</strong> — {{ book.hook }}</p>
+          <p class="margin-note" style="position: static; width: auto; text-align: left;">Sign up for <em>The Margin Notes</em> and it's yours. Free.</p>
+          <form
+            action="https://buttondown.com/api/emails/embed-subscribe/dylannotdylan"
+            method="post"
+            class="newsletter-form"
+          >
+            <input type="email" name="email" placeholder="your@email.com" required aria-label="Email address">
+            <button type="submit">Get the story</button>
+          </form>
+        </div>
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+</section>
+
 <section>
   <h2 class="section-header">Featured Works</h2>
   <div class="book-cards">
     {%- for book in books -%}
-      {%- if book.featured -%}
+      {%- if book.featured and not book.freeWithNewsletter -%}
         {% include "partials/book-card.njk" %}
       {%- endif -%}
     {%- endfor -%}

@@ -502,6 +502,56 @@ a:hover {
   margin-top: 0.3rem;
 }
 
+/* ========== Free Story Callout ========== */
+
+.free-story-callout {
+  margin-bottom: 3rem;
+}
+
+.free-story-inner {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  padding: 2rem;
+  border: 1px solid rgba(139, 115, 85, 0.2);
+  background: rgba(255, 255, 250, 0.4);
+}
+
+.free-story-cover {
+  width: 140px;
+  flex-shrink: 0;
+  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
+}
+
+.free-story-text {
+  flex: 1;
+}
+
+.free-story-text h2 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.free-story-text p {
+  font-size: 0.95rem;
+  margin-bottom: 0.8rem;
+}
+
+@media (max-width: 768px) {
+  .free-story-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .free-story-cover {
+    width: 120px;
+  }
+
+  .free-story-text .margin-note {
+    text-align: center;
+  }
+}
+
 /* ========== Newsletter ========== */
 
 .newsletter-section {
