@@ -1,0 +1,35 @@
+---
+layout: layouts/page.njk
+title: Contact
+permalink: /contact/
+---
+
+{# ABOUTME: Contact page — email links for readers and industry, newsletter signup, social links. #}
+{# ABOUTME: No contact form; email links keep it simple with no backend needed. #}
+
+<h1>Get in Touch</h1>
+
+<div class="contact-block">
+  <h2>Want to say hi?</h2>
+  <p>I like hearing from readers. Whether it's about a story, a question, or just to tell me your cat's name — I'm here.</p>
+  <p><a href="mailto:{{ site.email }}" class="contact-email">{{ site.email }}</a></p>
+</div>
+
+<div class="contact-block" style="position: relative;">
+  <h2>For industry inquiries</h2>
+  <span class="margin-note">queries, submissions, rights</span>
+  <p>If you're an agent, editor, or publisher — same email works. Put something useful in the subject line and I'll prioritize it.</p>
+  <p><a href="mailto:{{ site.email }}" class="contact-email">{{ site.email }}</a></p>
+</div>
+
+{% include "partials/newsletter.njk" %}
+
+<div class="contact-block" style="margin-top: 2rem;">
+  <h2>Elsewhere</h2>
+  <ul style="list-style: none; font-family: var(--font-mono); font-size: 0.9rem;">
+    <li><a href="{{ site.social.blog }}">dylan.blog</a> — the unfiltered version</li>
+    <li><a href="{{ site.social.instagram }}">instagram</a></li>
+    <li><a href="{{ site.social.github }}">github</a></li>
+    <li><a href="{{ site.social.linkedin }}">linkedin</a></li>
+  </ul>
+</div>
