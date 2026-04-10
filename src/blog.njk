@@ -1,0 +1,19 @@
+---
+layout: layouts/page.njk
+title: Blog
+permalink: /blog/
+---
+
+{# ABOUTME: Blog feed page — pulls latest posts from dylan.blog RSS. #}
+{# ABOUTME: Links back to dylan.blog for full posts. #}
+
+<h1 class="section-header">
+  From the Blog
+  <span class="margin-note">the unfiltered version lives at <a href="https://dylan.blog">dylan.blog</a></span>
+</h1>
+
+{% include "partials/blog-feed.njk" %}
+
+<p style="margin-top: 2rem;">
+  <a href="https://dylan.blog" class="hero-cta">Read more at dylan.blog →</a>
+</p>

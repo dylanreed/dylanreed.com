@@ -34,4 +34,11 @@ title: ""
   </div>
 </section>
 
+<section>
+  <h2 class="section-header">From the Blog</h2>
+  {% set feedLimit = 5 %}
+  {% include "partials/blog-feed.njk" %}
+  <p><a href="/blog/">See all posts →</a></p>
+</section>
+
 {% include "partials/newsletter.njk" %}

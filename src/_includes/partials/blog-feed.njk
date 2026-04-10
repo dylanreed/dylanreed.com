@@ -1,0 +1,22 @@
+{# ABOUTME: Displays a list of blog posts from dylan.blog RSS feed. #}
+{# ABOUTME: Used on both the home page (limited) and the full blog page. #}
+
+<div class="blog-feed">
+  {%- set postList = posts if posts else blogPosts -%}
+  {%- set limit = feedLimit if feedLimit else 10 -%}
+  {%- for post in postList -%}
+    {%- if loop.index0 < limit -%}
+      <div class="blog-post-item">
+        <h3><a href="{{ post.link }}">{{ post.title }}</a></h3>
+        <span class="blog-post-date">{{ post.date }}</span>
+        {%- if post.excerpt -%}
+          <p class="blog-post-excerpt">{{ post.excerpt }}</p>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  {%- endfor -%}
+
+  {%- if postList.length == 0 -%}
+    <p class="empty-state">Couldn't fetch the feed — <a href="https://dylan.blog">visit dylan.blog directly</a>.</p>
+  {%- endif -%}
+</div>
