@@ -48,6 +48,27 @@ module.exports = function(eleventyConfig) {
     }
   });
 
+  // Generate individual book pages from books.json
+  try {
+    const books = require("./src/_data/books.json");
+    books.forEach(book => {
+      eleventyConfig.addTemplate(`books/${book.slug}.njk`, `---
+layout: layouts/book.njk
+title: "${book.title}"
+genre: "${book.genre}"
+status: "${book.status}"
+wordCount: ${book.wordCount || 0}
+universe: ${book.universe ? '"' + book.universe + '"' : "null"}
+purchaseLink: ${book.purchaseLink ? '"' + book.purchaseLink + '"' : "null"}
+permalink: /books/${book.slug}/
+---
+
+${book.blurb}`);
+    });
+  } catch(e) {
+    // books.json may not exist yet
+  }
+
   return {
     dir: {
       input: "src",

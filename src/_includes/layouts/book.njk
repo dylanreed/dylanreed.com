@@ -1,0 +1,32 @@
+{# ABOUTME: Individual book page layout. #}
+{# ABOUTME: Displays full blurb, genre, status, universe link, purchase link. #}
+
+---
+layout: layouts/base.njk
+---
+
+<div class="notebook-page">
+  <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+  <h1>{{ title }}</h1>
+  <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
+
+  <div class="book-blurb">
+    {{ content | safe }}
+  </div>
+
+  {% if universe %}
+    <p style="margin-top: 2rem;">
+      <a href="/books/#{{ universe }}">← Back to {{ universe | replace("-", " ") | title }} universe</a>
+    </p>
+  {% endif %}
+
+  {% if purchaseLink %}
+    <p style="margin-top: 1.5rem;">
+      <a href="{{ purchaseLink }}" class="hero-cta">Get the book</a>
+    </p>
+  {% endif %}
+
+  <p style="margin-top: 2rem;">
+    <a href="/books/">← All books</a>
+  </p>
+</div>
