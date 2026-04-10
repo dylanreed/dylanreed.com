@@ -5,20 +5,21 @@ layout: layouts/base.njk
 {# ABOUTME: Displays full blurb, genre, status, universe link, purchase link. #}
 
 <div class="notebook-page">
-  {% if coverImage %}
-    <div class="book-detail-header">
+  <div class="book-detail-header">
+    {% if coverImage %}
       <img src="{{ coverImage }}" alt="{{ title }} cover" class="book-detail-cover">
-      <div class="book-detail-info">
-        <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
-        <h1>{{ title }}</h1>
-        <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
+    {% else %}
+      <div class="book-detail-cover book-card-placeholder" style="background-color: {{ genre | genreColor }}">
+        <span class="placeholder-title">{{ title }}</span>
+        <span class="placeholder-author">Dylan Reed</span>
       </div>
+    {% endif %}
+    <div class="book-detail-info">
+      <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+      <h1>{{ title }}</h1>
+      <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
     </div>
-  {% else %}
-    <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
-    <h1>{{ title }}</h1>
-    <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
-  {% endif %}
+  </div>
 
   <div class="book-blurb">
     {{ content | safe }}
@@ -26,7 +27,7 @@ layout: layouts/base.njk
 
   {% if universe %}
     <p style="margin-top: 2rem;">
-      <a href="/books/#{{ universe }}">← Back to {{ universe | replace("-", " ") | title }} universe</a>
+      <a href="/books/{{ universe }}/">← Back to {{ universe | replace("-", " ") | title }} universe</a>
     </p>
   {% endif %}
 

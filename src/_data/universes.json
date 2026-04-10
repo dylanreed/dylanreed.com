@@ -1,0 +1,32 @@
+[
+  {
+    "id": "acme-hero",
+    "name": "Acme Hero",
+    "description": "A world where superhero equipment is commercially available — if you're willing to lie on the application. Acme Hero Equip, Inc. sells real costumes, real gadgets, and a four-hundred-page manual on how not to get killed. The heroes who buy in are part-time, underfunded, and mostly making it up as they go.",
+    "genre": "YA Superhero"
+  },
+  {
+    "id": "slow-light",
+    "name": "Slow Light",
+    "description": "Six generation ships named for cattail in indigenous languages, carrying the last of humanity on a 150-year journey. Four books spanning the voyage — from the engineers who designed the lie to the descendants who inherit it.",
+    "genre": "Sci-Fi"
+  },
+  {
+    "id": "thistlehollow",
+    "name": "Thistlehollow",
+    "description": "A crossroads craft town where potions are pharmacy, magic is infrastructure, and a sentient slime mold runs the best bakery in the valley. Cozy fantasy stories about community, commerce, and the small negotiations of living alongside people who aren't like you.",
+    "genre": "Cozy Fantasy"
+  },
+  {
+    "id": "compliance-territory",
+    "name": "Compliance Territory",
+    "description": "Dragons are licensed by the Dragon Council. Damsels are assigned by committee. Lairs are zoned. The paperwork is staggering. Standalone stories exploring what happens when bureaucracy meets mythology — and the people who fall through the cracks.",
+    "genre": "Cozy Fantasy"
+  },
+  {
+    "id": "frankensteins-daughter",
+    "name": "Frankenstein's Daughter",
+    "description": "A steampunk YA duology. Calliope, a fifteen-year-old clockwork inventor, ages out of a grim orphanage and attends a hero academy powered by reanimation science. Found family, queer romance, and the ethics of building people.",
+    "genre": "Steampunk"
+  }
+]

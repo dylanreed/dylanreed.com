@@ -309,6 +309,57 @@ a:hover {
   flex: 1;
 }
 
+/* ========== Placeholder Covers ========== */
+
+.book-card-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 12px 10px;
+  aspect-ratio: 2 / 3;
+  position: relative;
+  overflow: hidden;
+}
+
+.book-card-placeholder::before {
+  content: '';
+  position: absolute;
+  inset: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  pointer-events: none;
+}
+
+.book-card-placeholder .placeholder-title {
+  font-family: var(--font-serif);
+  font-size: 14px;
+  font-weight: 700;
+  color: white;
+  line-height: 1.2;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.book-card-placeholder .placeholder-author {
+  font-family: var(--font-mono);
+  font-size: 9px;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 4px;
+}
+
+.book-detail-cover.book-card-placeholder {
+  width: 200px;
+  padding: 20px 16px;
+}
+
+.book-detail-cover.book-card-placeholder .placeholder-title {
+  font-size: 20px;
+}
+
+.book-detail-cover.book-card-placeholder .placeholder-author {
+  font-size: 11px;
+}
+
 /* ========== Book Detail Page ========== */
 
 .book-detail-header {

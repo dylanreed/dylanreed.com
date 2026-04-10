@@ -24,7 +24,8 @@ module.exports = function(eleventyConfig) {
       "Steampunk": "#b8860b",
       "Urban Fantasy": "#7b68ae",
       "Noir": "#555555",
-      "Space Western": "#c9784c"
+      "Space Western": "#c9784c",
+      "YA Superhero": "#e06040"
     };
     return colors[genre] || "#8b7355";
   });
@@ -35,7 +36,9 @@ module.exports = function(eleventyConfig) {
       "submitted": "submitted",
       "available-soon": "available soon",
       "in-revision": "in revision",
-      "in-progress": "in progress"
+      "in-progress": "in progress",
+      "drafting": "drafting",
+      "editing": "editing"
     };
     return labels[status] || status;
   });
@@ -51,6 +54,7 @@ module.exports = function(eleventyConfig) {
 
   // Generate individual book pages from books.json
   try {
+    delete require.cache[require.resolve("./src/_data/books.json")];
     const books = require("./src/_data/books.json");
     books.forEach(book => {
       eleventyConfig.addTemplate(`books/${book.slug}.njk`, `---
@@ -69,6 +73,30 @@ ${book.blurb}`);
     });
   } catch(e) {
     // books.json may not exist yet
+  }
+
+  // Generate individual universe pages from universes.json
+  try {
+    delete require.cache[require.resolve("./src/_data/universes.json")];
+    delete require.cache[require.resolve("./src/_data/books.json")];
+    const universes = require("./src/_data/universes.json");
+    const books = require("./src/_data/books.json");
+    universes.forEach(universe => {
+      const hasBooks = books.some(b => b.universe === universe.id);
+      if (hasBooks) {
+        eleventyConfig.addTemplate(`books/${universe.id}.njk`, `---
+layout: layouts/universe.njk
+title: "${universe.name}"
+universeName: "${universe.name}"
+universeId: "${universe.id}"
+universeDescription: "${universe.description.replace(/"/g, '\\"')}"
+genre: "${universe.genre}"
+permalink: /books/${universe.id}/
+---`);
+      }
+    });
+  } catch(e) {
+    // universes.json may not exist yet
   }
 
   return {

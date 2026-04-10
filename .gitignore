@@ -1,4 +1,6 @@
 _site/
 node_modules/
 .superpowers/
+.cache/
+public/
 .DS_Store

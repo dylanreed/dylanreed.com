@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+---
+{# ABOUTME: Individual universe page layout. #}
+{# ABOUTME: Shows universe description and lists all books in the universe. #}
+
+<div class="notebook-page">
+  <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+  <h1>{{ universeName }}</h1>
+  <p class="universe-description" style="font-size: 1.05rem; color: var(--color-text); margin-bottom: 2rem;">{{ universeDescription }}</p>
+
+  <h2 class="section-header">Works in this universe</h2>
+  <div class="book-cards">
+    {%- for book in books -%}
+      {%- if book.universe == universeId -%}
+        {% include "partials/book-card.njk" %}
+      {%- endif -%}
+    {%- endfor -%}
+  </div>
+
+  <p style="margin-top: 2rem;">
+    <a href="/books/">← All books</a>
+  </p>
+</div>

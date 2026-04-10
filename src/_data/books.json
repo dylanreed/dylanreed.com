@@ -1,11 +1,25 @@
 [
   {
+    "title": "The Correspondent: Origins",
+    "slug": "the-correspondent-origins",
+    "type": "novel",
+    "genre": "Superhero",
+    "universe": "acme-hero",
+    "status": "available-soon",
+    "featured": true,
+    "hook": "A girl, a mask her ex-boyfriend left behind, and a company that sells real superhero equipment to anyone willing to lie about their age.",
+    "blurb": "Ellie Seymour is seventeen, five feet tall, and working at her parents' hardware store when she discovers that her ex-boyfriend's Halloween mask is an encrypted access key to Acme Hero Equip, Inc. — a company that sells real costumes, real gadgets, and a four-hundred-page manual on how not to get killed. She orders everything she can afford. She lies about her age. She becomes The Correspondent. Then The Rat walks into her father's hardware store, and the wall she's been building between her hero life and her home life comes apart in one night.",
+    "wordCount": 67000,
+    "coverImage": "/assets/images/covers/the-correspondent-origins.png",
+    "purchaseLink": null
+  },
+  {
     "title": "Universal Basic Princess",
     "slug": "universal-basic-princess",
     "type": "novel",
     "genre": "Romance",
     "universe": null,
-    "status": "available-soon",
+    "status": "in-progress",
     "featured": true,
     "hook": "A crown princess fakes a relationship with an economist after a photo leak. Then it stops being fake.",
     "blurb": "When a tabloid photo catches Crown Princess Maren holding hands with an economist at a state dinner, her press team does what press teams do — they run with it. The fake relationship is supposed to last six weeks. Long enough to bury the real story. But Dr. Elin Vargas doesn't read the brief, and Maren has never been good at staying in character.",
@@ -13,32 +27,61 @@
     "coverImage": "/assets/images/covers/universal-basic-princess.png",
     "purchaseLink": null
   },
-  {
-    "title": "Pressure Rating",
-    "slug": "pressure-rating",
-    "type": "novella",
-    "genre": "Sci-Fi",
-    "universe": null,
-    "status": "submitted",
-    "featured": true,
-    "hook": "The sole maintenance technician on a dying deep-sea station keeps it alive so the person she loves can stay at the only depth that slows their disease.",
-    "blurb": "Wren is the last engineer on Bathyal Station, a research outpost three thousand meters under the Pacific. The station is failing — loss of buoyancy, corroding seals, systems designed for twelve people maintained by one. She stays because Nico stays, and Nico stays because at this depth, the ambient pressure slows the nerve disease that is slowly taking their body apart. This is a story about what it costs to keep something alive, and what it means when the something is a person.",
-    "wordCount": 27500,
-    "coverImage": null,
-    "purchaseLink": null
-  },
+
   {
     "title": "Understudy",
     "slug": "understudy",
     "type": "novella",
     "genre": "Romance",
     "universe": null,
-    "status": "available-soon",
+    "status": "in-progress",
     "featured": true,
     "hook": "A corps ballet dancer and a food truck operator, both stuck in inherited roles, learn to lead their own lives.",
     "blurb": "Margot dances in the corps — not because she chose it, but because her mother's name still opens doors at the company. Across the street, Jules runs a food truck she inherited when her father died, serving the same menu he served, in the same spot, to the same lunch crowd. They meet over a sprained ankle and a bowl of soup. Neither of them is living the life they'd have picked. This is a story about understudies — people standing in someone else's place — and what happens when they step out of the wings.",
     "wordCount": 35000,
     "coverImage": "/assets/images/covers/understudy.png",
+    "purchaseLink": null
+  },
+  {
+    "title": "What We Keep",
+    "slug": "what-we-keep",
+    "type": "novella",
+    "genre": "Sci-Fi",
+    "universe": "slow-light",
+    "status": "editing",
+    "featured": false,
+    "hook": "A biological drone built to process the dead keeps a cat instead of killing it. Everything unravels from there.",
+    "blurb": "On Ibhuma, one of six generation ships carrying the remnants of humanity, Omission-67k has spent three years following protocol without question — until he finds a cat in a dead man's apartment, holds the knife against its chest, and it purrs, and something inside him says no. That refusal cracks open everything he was engineered not to feel. A pet shop owner with a hidden rescue operation. A lost batchmate whose disappearance teaches him what loss means. A ship dying section by section while no one acknowledges it. A quiet science fiction novella about personhood, kindness as subversion, and what defines you when everything you were made for falls apart.",
+    "wordCount": 29300,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "Calliope and the Rogue Biologic",
+    "slug": "calliope-and-the-rogue-biologic",
+    "type": "novel",
+    "genre": "Steampunk",
+    "universe": "frankensteins-daughter",
+    "status": "editing",
+    "featured": false,
+    "hook": "A fifteen-year-old clockwork inventor ages out of a grim orphanage and gets a letter to a hero academy. Everyone there knows whose daughter she is.",
+    "blurb": "Calliope is the daughter of mad scientists, killed by the very monster they created, and everyone at the academy knows it. Aging out of the orphanage with nothing but her wits and a gift for building mechanical solutions, she has to prove she's not doomed to repeat her parents' mistakes. A steampunk YA story about a girl who builds her way out of every corner she's pushed into.",
+    "wordCount": 64800,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "Thermal Gradient",
+    "slug": "thermal-gradient",
+    "type": "novella",
+    "genre": "Sci-Fi",
+    "universe": null,
+    "status": "editing",
+    "featured": false,
+    "hook": "Two novellas interleaved — a maintenance engineer and a marine biologist on a dying deep-sea station, told from both sides of the same love story.",
+    "blurb": "Wren Calder is the sole maintenance technician at Relay Station Aronnax, four hundred meters under the Pacific, where she keeps alive not just the failing station but her terminally ill partner Nico, whose degenerative nerve condition slows under the weight of ocean pressure. When Pelagic Industrial schedules a decommissioning inspection, Wren has to choose between the nine years of work that nobody sees and the one person she cannot measure. A character study in improvised competence and the kind of love that holds onto another person against impossible odds.",
+    "wordCount": 58800,
+    "coverImage": null,
     "purchaseLink": null
   }
 ]

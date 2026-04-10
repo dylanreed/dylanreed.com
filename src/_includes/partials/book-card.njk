@@ -1,10 +1,15 @@
 {# ABOUTME: Reusable book card component for featured works. #}
-{# ABOUTME: Displays title, genre tag, hook, and status. #}
+{# ABOUTME: Displays cover (real or placeholder), genre tag, hook, and status. #}
 
-<div class="book-card {% if book.coverImage %}book-card-with-cover{% endif %}">
+<div class="book-card book-card-with-cover">
   <a href="/books/{{ book.slug }}/">
     {% if book.coverImage %}
       <img src="{{ book.coverImage }}" alt="{{ book.title }} cover" class="book-card-cover">
+    {% else %}
+      <div class="book-card-cover book-card-placeholder" style="background-color: {{ book.genre | genreColor }}">
+        <span class="placeholder-title">{{ book.title }}</span>
+        <span class="placeholder-author">Dylan Reed</span>
+      </div>
     {% endif %}
     <div class="book-card-text">
       <span class="genre-tag" style="background-color: {{ book.genre | genreColor }}">{{ book.genre }}</span>

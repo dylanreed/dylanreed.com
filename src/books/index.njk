@@ -19,25 +19,27 @@ permalink: /books/
 
 <h2 class="section-header">Universes</h2>
 
-{% set universes = [
-  { "id": "slow-light", "name": "Slow Light", "description": "Six generation ships named for cattail in indigenous languages, carrying the last of humanity on a 150-year journey. Four books spanning the voyage — from the engineers who designed the lie to the descendants who inherit it." },
-  { "id": "thistlehollow", "name": "Thistlehollow", "description": "A crossroads craft town where potions are pharmacy, magic is infrastructure, and a sentient slime mold runs the best bakery in the valley. Cozy fantasy stories about community, commerce, and the small negotiations of living alongside people who aren't like you." },
-  { "id": "compliance-territory", "name": "Compliance Territory", "description": "Dragons are licensed by the Dragon Council. Damsels are assigned by committee. Lairs are zoned. The paperwork is staggering. Standalone stories exploring what happens when bureaucracy meets mythology — and the people who fall through the cracks." },
-  { "id": "frankensteins-daughter", "name": "Frankenstein's Daughter", "description": "A steampunk YA duology. Calliope, a fifteen-year-old clockwork inventor, ages out of a grim orphanage and attends a hero academy powered by reanimation science. Found family, queer romance, and the ethics of building people." }
-] %}
-
 {%- for universe in universes -%}
-  <div class="universe-section" id="{{ universe.id }}">
-    <h3>{{ universe.name }}</h3>
-    <p class="universe-description">{{ universe.description }}</p>
-    <ul class="universe-works">
-      {%- for book in books -%}
-        {%- if book.universe == universe.id -%}
-          <li><a href="/books/{{ book.slug }}/">{{ book.title }}</a> — <span class="status">{{ book.status | statusLabel }}</span></li>
-        {%- endif -%}
-      {%- endfor -%}
-    </ul>
-  </div>
+  {%- set hasBooks = false -%}
+  {%- for book in books -%}
+    {%- if book.universe == universe.id -%}
+      {%- set hasBooks = true -%}
+    {%- endif -%}
+  {%- endfor -%}
+  {%- if hasBooks -%}
+    <div class="universe-section" id="{{ universe.id }}">
+      <h3><a href="/books/{{ universe.id }}/">{{ universe.name }}</a></h3>
+      <p class="universe-description">{{ universe.description }}</p>
+      <ul class="universe-works">
+        {%- for book in books -%}
+          {%- if book.universe == universe.id -%}
+            <li><a href="/books/{{ book.slug }}/">{{ book.title }}</a> — <span class="status">{{ book.status | statusLabel }}</span></li>
+          {%- endif -%}
+        {%- endfor -%}
+      </ul>
+      <p><a href="/books/{{ universe.id }}/">Explore {{ universe.name }} →</a></p>
+    </div>
+  {%- endif -%}
 {%- endfor -%}
 
 <div class="universe-section">
