@@ -20,7 +20,7 @@
     "genre": "Romance",
     "universe": null,
     "status": "in-progress",
-    "featured": true,
+    "featured": false,
     "hook": "A crown princess fakes a relationship with an economist after a photo leak. Then it stops being fake.",
     "blurb": "When a tabloid photo catches Crown Princess Maren holding hands with an economist at a state dinner, her press team does what press teams do — they run with it. The fake relationship is supposed to last six weeks. Long enough to bury the real story. But Dr. Elin Vargas doesn't read the brief, and Maren has never been good at staying in character.",
     "wordCount": 69000,
@@ -35,7 +35,7 @@
     "genre": "Romance",
     "universe": null,
     "status": "in-progress",
-    "featured": true,
+    "featured": false,
     "hook": "A corps ballet dancer and a food truck operator, both stuck in inherited roles, learn to lead their own lives.",
     "blurb": "Margot dances in the corps — not because she chose it, but because her mother's name still opens doors at the company. Across the street, Jules runs a food truck she inherited when her father died, serving the same menu he served, in the same spot, to the same lunch crowd. They meet over a sprained ankle and a bowl of soup. Neither of them is living the life they'd have picked. This is a story about understudies — people standing in someone else's place — and what happens when they step out of the wings.",
     "wordCount": 35000,
@@ -53,7 +53,7 @@
     "hook": "A biological drone built to process the dead keeps a cat instead of killing it. Everything unravels from there.",
     "blurb": "On Ibhuma, one of six generation ships carrying the remnants of humanity, Omission-67k has spent three years following protocol without question — until he finds a cat in a dead man's apartment, holds the knife against its chest, and it purrs, and something inside him says no. That refusal cracks open everything he was engineered not to feel. A pet shop owner with a hidden rescue operation. A lost batchmate whose disappearance teaches him what loss means. A ship dying section by section while no one acknowledges it. A quiet science fiction novella about personhood, kindness as subversion, and what defines you when everything you were made for falls apart.",
     "wordCount": 29300,
-    "coverImage": null,
+    "coverImage": "/assets/images/covers/what-we-keep.png",
     "purchaseLink": null
   },
   {
@@ -81,6 +81,34 @@
     "hook": "Two novellas interleaved — a maintenance engineer and a marine biologist on a dying deep-sea station, told from both sides of the same love story.",
     "blurb": "Wren Calder is the sole maintenance technician at Relay Station Aronnax, four hundred meters under the Pacific, where she keeps alive not just the failing station but her terminally ill partner Nico, whose degenerative nerve condition slows under the weight of ocean pressure. When Pelagic Industrial schedules a decommissioning inspection, Wren has to choose between the nine years of work that nobody sees and the one person she cannot measure. A character study in improvised competence and the kind of love that holds onto another person against impossible odds.",
     "wordCount": 58800,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "Closer on Paper",
+    "slug": "closer-on-paper",
+    "type": "novella",
+    "genre": "Cozy Fantasy",
+    "universe": "thistlehollow",
+    "status": "drafting",
+    "featured": false,
+    "hook": "A small-town potion shop owner watches a corporate chain open across the street — and tries to figure out what's worth fighting for.",
+    "blurb": "Elara has run The Quiet Tincture for years, making potions by hand for people she knows by name. When Verdant Standard opens a branch in Thistlehollow — cheaper prices, standardized formulas, no appointment needed — she has to decide whether what she does is worth enough to survive. It's not good versus evil. Both approaches work. But one of them knows your name, and the other one doesn't need to.",
+    "wordCount": 45000,
+    "coverImage": null,
+    "purchaseLink": null
+  },
+  {
+    "title": "The Rehearsal Dinner",
+    "slug": "the-rehearsal-dinner",
+    "type": "short",
+    "genre": "Cozy Fantasy",
+    "universe": "thistlehollow",
+    "status": "submitted",
+    "featured": false,
+    "hook": "Two families meet. Slime runs the bakery. The story is about learning to eat together.",
+    "blurb": "Two families sit down to dinner the night before a wedding in Thistlehollow. The food is unfamiliar. The customs don't translate. The baker is a sentient slime mold named Marzipan who makes the best pastry in the valley. A story about coexistence — not the grand gesture kind, but the kind where you try the thing on your plate and say thank you.",
+    "wordCount": 5000,
     "coverImage": null,
     "purchaseLink": null
   }
