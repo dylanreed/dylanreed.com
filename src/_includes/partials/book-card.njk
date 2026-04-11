@@ -6,9 +6,15 @@
     {% if book.coverImage %}
       <img src="{{ book.coverImage }}" alt="{{ book.title }} cover" class="book-card-cover">
     {% else %}
-      <div class="book-card-cover book-card-placeholder" style="background-color: {{ book.genre | genreColor }}">
-        <span class="placeholder-title">{{ book.title }}</span>
-        <span class="placeholder-author">Dylan Reed</span>
+      {% set h = book.title | titleHash %}
+      <div class="book-card-cover cover-placeholder">
+        <div class="sticky-note" style="background-color: {{ book.genre | genreColor }}; --note-rotation: {{ h.noteRotation }}deg;">
+          <div class="sticky-tape" style="top: {{ h.tape1Top }}px; {{ h.tape1Side }}; width: {{ h.tape1Width }}px; transform: rotate({{ h.tape1Rotation }}deg);"></div>
+          <div class="sticky-tape" style="bottom: {{ h.tape2Bottom }}px; {{ h.tape2Side }}; width: {{ h.tape2Width }}px; transform: rotate({{ h.tape2Rotation }}deg);"></div>
+          <div class="sticky-note__title">{{ book.title }}</div>
+          <div class="sticky-note__divider"></div>
+          <div class="sticky-note__status">{{ book.status | statusLabel }}</div>
+        </div>
       </div>
     {% endif %}
     <div class="book-card-text">

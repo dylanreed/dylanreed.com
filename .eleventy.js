@@ -30,6 +30,38 @@ module.exports = function(eleventyConfig) {
     return colors[genre] || "#8b7355";
   });
 
+  eleventyConfig.addFilter("titleHash", (title) => {
+    let hash = 0;
+    for (let i = 0; i < title.length; i++) {
+      hash = ((hash << 5) - hash) + title.charCodeAt(i);
+      hash = hash & hash;
+    }
+    hash = Math.abs(hash);
+
+    const noteRotation = (hash % 60 - 30) / 10;
+    const tape1Rotation = ((hash >> 4) % 50 - 25);
+    const tape2Rotation = ((hash >> 8) % 50 - 25);
+    const tape1Width = 42 + ((hash >> 12) % 13);
+    const tape2Width = 42 + ((hash >> 16) % 13);
+    const tape1Top = -3 - ((hash >> 3) % 4);
+    const tape1Side = -5 - ((hash >> 7) % 6);
+    const tape2Bottom = -3 - ((hash >> 11) % 4);
+    const tape2Side = -5 - ((hash >> 15) % 6);
+    const mirrorCorners = (hash % 2 === 0);
+
+    return {
+      noteRotation,
+      tape1Rotation: mirrorCorners ? tape1Rotation : -tape1Rotation,
+      tape2Rotation: mirrorCorners ? tape2Rotation : -tape2Rotation,
+      tape1Width,
+      tape2Width,
+      tape1Top,
+      tape1Side: mirrorCorners ? `left: ${tape1Side}px` : `right: ${tape1Side}px`,
+      tape2Bottom,
+      tape2Side: mirrorCorners ? `right: ${tape2Side}px` : `left: ${tape2Side}px`
+    };
+  });
+
   eleventyConfig.addFilter("statusLabel", (status) => {
     const labels = {
       "published": "published",

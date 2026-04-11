@@ -9,9 +9,15 @@ layout: layouts/base.njk
     {% if coverImage %}
       <img src="{{ coverImage }}" alt="{{ title }} cover" class="book-detail-cover">
     {% else %}
-      <div class="book-detail-cover book-card-placeholder" style="background-color: {{ genre | genreColor }}">
-        <span class="placeholder-title">{{ title }}</span>
-        <span class="placeholder-author">Dylan Reed</span>
+      {% set h = title | titleHash %}
+      <div class="book-detail-cover cover-placeholder">
+        <div class="sticky-note" style="background-color: {{ genre | genreColor }}; --note-rotation: {{ h.noteRotation }}deg;">
+          <div class="sticky-tape" style="top: {{ h.tape1Top }}px; {{ h.tape1Side }}; width: {{ h.tape1Width }}px; transform: rotate({{ h.tape1Rotation }}deg);"></div>
+          <div class="sticky-tape" style="bottom: {{ h.tape2Bottom }}px; {{ h.tape2Side }}; width: {{ h.tape2Width }}px; transform: rotate({{ h.tape2Rotation }}deg);"></div>
+          <div class="sticky-note__title">{{ title }}</div>
+          <div class="sticky-note__divider"></div>
+          <div class="sticky-note__status">{{ status | statusLabel }}</div>
+        </div>
       </div>
     {% endif %}
     <div class="book-detail-info">
