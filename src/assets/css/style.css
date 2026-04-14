@@ -302,7 +302,6 @@ a:hover {
 .book-card-cover {
   width: 120px;
   flex-shrink: 0;
-  box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.12);
 }
 
 .book-card-text {
@@ -400,7 +399,6 @@ a:hover {
 .book-detail-cover {
   width: 200px;
   flex-shrink: 0;
-  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 .book-detail-info {
@@ -587,7 +585,6 @@ a:hover {
 .free-story-cover {
   width: 140px;
   flex-shrink: 0;
-  box-shadow: 2px 3px 8px rgba(0, 0, 0, 0.15);
 }
 
 .free-story-text {
