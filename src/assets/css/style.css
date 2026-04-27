@@ -439,6 +439,15 @@ a:hover {
   text-transform: uppercase;
 }
 
+.series-tag {
+  font-family: var(--font-mono);
+  font-style: italic;
+  font-size: 0.75rem;
+  color: var(--color-text-light);
+  margin: 0 0 0.3rem 0;
+  letter-spacing: 0.3px;
+}
+
 .book-card .hook {
   font-size: 0.95rem;
   color: var(--color-text);

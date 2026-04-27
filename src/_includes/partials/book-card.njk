@@ -19,6 +19,7 @@
     {% endif %}
     <div class="book-card-text">
       <span class="genre-tag" style="background-color: {{ book.genre | genreColor }}">{{ book.genre }}</span>
+      {% if book.series %}<p class="series-tag">{{ book.series }}</p>{% endif %}
       <h3>{{ book.title }}</h3>
       <p class="hook">{{ book.hook }}</p>
       {% if book.freeWithNewsletter %}

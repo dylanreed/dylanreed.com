@@ -70,6 +70,7 @@ module.exports = function(eleventyConfig) {
       "in-revision": "in revision",
       "in-progress": "in progress",
       "drafting": "drafting",
+      "first draft complete": "first draft complete",
       "editing": "editing"
     };
     return labels[status] || status;
@@ -93,6 +94,7 @@ module.exports = function(eleventyConfig) {
 layout: layouts/book.njk
 title: "${book.title}"
 genre: "${book.genre}"
+series: ${book.series ? '"' + book.series + '"' : "null"}
 status: "${book.status}"
 wordCount: ${book.wordCount || 0}
 universe: ${book.universe ? '"' + book.universe + '"' : "null"}

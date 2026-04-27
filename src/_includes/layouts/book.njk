@@ -22,6 +22,7 @@ layout: layouts/base.njk
     {% endif %}
     <div class="book-detail-info">
       <span class="genre-tag" style="background-color: {{ genre | genreColor }}">{{ genre }}</span>
+      {% if series %}<p class="series-tag">{{ series }}</p>{% endif %}
       <h1>{{ title }}</h1>
       <p class="status" style="margin-bottom: 1.5rem;">{{ status | statusLabel }}{% if wordCount %} · {{ (wordCount / 1000) | round }}k words{% endif %}</p>
     </div>
