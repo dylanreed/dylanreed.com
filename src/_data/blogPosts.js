@@ -1,4 +1,4 @@
-// ABOUTME: Fetches blog posts from dylan.blog RSS feed at build time.
+// ABOUTME: Fetches writing-category blog posts from dylan.blog RSS feed at build time.
 // ABOUTME: Uses eleventy-fetch for caching. Returns parsed post array with full content for local rendering.
 
 const EleventyFetch = require("@11ty/eleventy-fetch");
@@ -28,7 +28,7 @@ function slugify(str) {
 }
 
 module.exports = async function() {
-  const feedUrl = "https://dylan.blog/index.xml";
+  const feedUrl = "https://dylan.blog/categories/writing/feed.xml";
 
   try {
     const feed = await EleventyFetch(feedUrl, {
