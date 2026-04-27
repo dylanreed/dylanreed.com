@@ -59,7 +59,7 @@ module.exports = async function() {
           .replace(/&gt;/g, ">")
           .replace(/&nbsp;/g, " ")
           .replace(/&amp;/g, "&")
-      );
+      ).replace(/^\s*<p>\s*<img[^>]*\/?>\s*<\/p>\s*/i, "");
 
       // Plain text excerpt for listings
       const excerpt = fullContent
