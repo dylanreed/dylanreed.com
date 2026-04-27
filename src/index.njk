@@ -25,6 +25,7 @@ title: ""
 
 <section class="free-story-callout">
   <div class="free-story-inner">
+  <span class="margin-note" style="position: absolute; top: 200px; right: -50px;"><span class="icon">{% include "icons/arrow-left.svg" %}</span> free book</span>
     {%- for book in books -%}
       {%- if book.freeWithNewsletter -%}
         {% if book.coverImage %}
